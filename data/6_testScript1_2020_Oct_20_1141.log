@@ -1,0 +1,636 @@
+22.8101 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020CBA8179E8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020CBB9B0C88>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1680, 1050]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+22.8102 	EXP 	window1: recordFrameIntervals = False
+22.9573 	EXP 	window1: recordFrameIntervals = True
+23.1412 	EXP 	window1: recordFrameIntervals = False
+23.5795 	EXP 	Created TODO = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TODO', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.5900 	EXP 	Created baselineImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='baselineImage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2.  , 1.33]), texRes=128, units='height', win=Window(...))
+23.5915 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2.  , 1.33]), texRes=128, units='height', win=Window(...))
+25.7724 	EXP 	Created rating = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=['Yes', 'No'], depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=-1, tickMarks=1.0, win=Window(...))
+25.7799 	EXP 	Created RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RatingText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+25.7995 	EXP 	Created ThanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ThanksText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.8406 	EXP 	rating: flipVert = False
+25.8406 	EXP 	rating: autoLog = True
+25.8406 	EXP 	TODO: autoDraw = True
+26.7476 	DATA 	Mouse: wheel shift=(0,1), pos=(810,806)
+70.3810 	DATA 	Mouse: Left button down, pos=(837,332)
+70.5148 	DATA 	Mouse:  Left button up, pos=(835,332)
+71.6990 	EXP 	Imported imgUrl.xlsx as conditions, 29 conditions, 2 params
+71.6997 	EXP 	Created sequence: sequential, trialTypes=29, nReps=1, seed=None
+71.7001 	EXP 	New trial (rep=0, index=0): OrderedDict([('Blur', 'image/1-blur.jpg'), ('Original', 'image/1-original.jpg')])
+71.7915 	DATA 	Keypress: f
+71.8071 	EXP 	TODO: autoDraw = False
+71.8071 	EXP 	baselineImage: image = 'image/1-blur.jpg'
+71.8071 	EXP 	baselineImage: autoDraw = True
+74.3187 	EXP 	baselineImage: autoDraw = False
+74.3187 	EXP 	image: image = 'image/1-original.jpg'
+74.3187 	EXP 	image: autoDraw = True
+78.9510 	EXP 	RatingScale rating: reset()
+78.9819 	EXP 	image: autoDraw = False
+78.9819 	EXP 	RatingText: text = 'Do you like this image?'
+78.9819 	EXP 	rating: autoDraw = True
+78.9819 	EXP 	RatingText: autoDraw = True
+83.4261 	DATA 	Mouse: Left button down, pos=(695,318)
+83.6096 	DATA 	Mouse:  Left button up, pos=(695,318)
+89.4983 	DATA 	Mouse: Left button down, pos=(1105,321)
+89.6315 	DATA 	Mouse:  Left button up, pos=(1104,321)
+90.9980 	DATA 	Mouse: Left button down, pos=(601,327)
+91.1319 	DATA 	Mouse:  Left button up, pos=(601,327)
+92.1487 	DATA 	Mouse: Left button down, pos=(597,330)
+92.9667 	DATA 	Mouse:  Left button up, pos=(705,321)
+93.3327 	DATA 	Mouse: Left button down, pos=(730,320)
+93.4839 	DATA 	Mouse:  Left button up, pos=(730,320)
+93.8175 	DATA 	Mouse: Left button down, pos=(756,315)
+93.9350 	DATA 	Mouse:  Left button up, pos=(756,315)
+96.2036 	DATA 	Mouse: Left button down, pos=(861,182)
+96.2039 	DATA 	RatingScale rating: (mouse response) rating=Yes
+96.2039 	DATA 	RatingScale rating: rating RT=17.237
+96.2039 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 4.46), ('No', 10.532), ('Yes', 12.032), ('Yes', 17.237)]
+96.2190 	EXP 	New trial (rep=0, index=1): OrderedDict([('Blur', 'image/2-blur.jpg'), ('Original', 'image/2-original.jpg')])
+96.3100 	EXP 	rating: autoDraw = False
+96.3100 	EXP 	RatingText: autoDraw = False
+96.3100 	EXP 	baselineImage: image = 'image/2-blur.jpg'
+96.3100 	EXP 	baselineImage: autoDraw = True
+96.3320 	DATA 	Mouse:  Left button up, pos=(861,182)
+98.8264 	EXP 	baselineImage: autoDraw = False
+98.8264 	EXP 	image: image = 'image/2-original.jpg'
+98.8264 	EXP 	image: autoDraw = True
+103.4546 	EXP 	RatingScale rating: reset()
+103.4689 	EXP 	image: autoDraw = False
+103.4689 	EXP 	RatingText: text = 'Do you like this image?'
+103.4689 	EXP 	rating: autoDraw = True
+103.4689 	EXP 	RatingText: autoDraw = True
+104.8583 	DATA 	Mouse: Left button down, pos=(607,268)
+104.9243 	DATA 	Mouse:  Left button up, pos=(607,268)
+107.8441 	DATA 	Mouse: Left button down, pos=(650,312)
+107.9776 	DATA 	Mouse:  Left button up, pos=(650,312)
+111.1970 	DATA 	Mouse: Left button down, pos=(892,210)
+111.1973 	DATA 	RatingScale rating: (mouse response) rating=Yes
+111.1973 	DATA 	RatingScale rating: rating RT=7.739
+111.1973 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 4.386), ('Yes', 7.739)]
+111.2127 	EXP 	New trial (rep=0, index=2): OrderedDict([('Blur', 'image/3-blur.jpg'), ('Original', 'image/3-original.jpg')])
+111.3158 	EXP 	rating: autoDraw = False
+111.3158 	EXP 	RatingText: autoDraw = False
+111.3158 	EXP 	baselineImage: image = 'image/3-blur.jpg'
+111.3158 	EXP 	baselineImage: autoDraw = True
+111.3322 	DATA 	Mouse:  Left button up, pos=(892,210)
+113.8252 	EXP 	baselineImage: autoDraw = False
+113.8252 	EXP 	image: image = 'image/3-original.jpg'
+113.8252 	EXP 	image: autoDraw = True
+118.4553 	EXP 	RatingScale rating: reset()
+118.4681 	EXP 	image: autoDraw = False
+118.4681 	EXP 	RatingText: text = 'Do you like this image?'
+118.4681 	EXP 	rating: autoDraw = True
+118.4681 	EXP 	RatingText: autoDraw = True
+120.1706 	DATA 	Mouse: Left button down, pos=(1101,316)
+120.3213 	DATA 	Mouse:  Left button up, pos=(1101,316)
+121.5222 	DATA 	Mouse: Left button down, pos=(838,208)
+121.5224 	DATA 	RatingScale rating: (mouse response) rating=No
+121.5224 	DATA 	RatingScale rating: rating RT=3.063
+121.5224 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.711), ('No', 3.063)]
+121.5371 	EXP 	New trial (rep=0, index=3): OrderedDict([('Blur', 'image/4-blur.jpg'), ('Original', 'image/4-original.jpg')])
+121.6162 	EXP 	rating: autoDraw = False
+121.6162 	EXP 	RatingText: autoDraw = False
+121.6162 	EXP 	baselineImage: image = 'image/4-blur.jpg'
+121.6162 	EXP 	baselineImage: autoDraw = True
+121.6683 	DATA 	Mouse:  Left button up, pos=(838,208)
+124.1369 	EXP 	baselineImage: autoDraw = False
+124.1369 	EXP 	image: image = 'image/4-original.jpg'
+124.1369 	EXP 	image: autoDraw = True
+128.7631 	EXP 	RatingScale rating: reset()
+128.7755 	EXP 	image: autoDraw = False
+128.7755 	EXP 	RatingText: text = 'Do you like this image?'
+128.7755 	EXP 	rating: autoDraw = True
+128.7755 	EXP 	RatingText: autoDraw = True
+130.3949 	DATA 	Mouse: Left button down, pos=(604,263)
+130.4951 	DATA 	Mouse:  Left button up, pos=(604,263)
+131.9796 	DATA 	Mouse: Left button down, pos=(1078,257)
+132.0965 	DATA 	Mouse:  Left button up, pos=(1078,257)
+133.5966 	DATA 	Mouse: Left button down, pos=(674,341)
+133.6813 	DATA 	Mouse:  Left button up, pos=(674,341)
+141.5546 	DATA 	Mouse: Left button down, pos=(795,209)
+141.5548 	DATA 	RatingScale rating: (mouse response) rating=Yes
+141.5548 	DATA 	RatingScale rating: rating RT=12.788
+141.5548 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 4.83), ('Yes', 12.788)]
+141.5697 	EXP 	New trial (rep=0, index=4): OrderedDict([('Blur', 'image/5-blur.jpg'), ('Original', 'image/5-original.jpg')])
+141.6481 	DATA 	Mouse:  Left button up, pos=(795,209)
+141.6595 	EXP 	rating: autoDraw = False
+141.6595 	EXP 	RatingText: autoDraw = False
+141.6595 	EXP 	baselineImage: image = 'image/5-blur.jpg'
+141.6595 	EXP 	baselineImage: autoDraw = True
+144.1754 	EXP 	baselineImage: autoDraw = False
+144.1754 	EXP 	image: image = 'image/5-original.jpg'
+144.1754 	EXP 	image: autoDraw = True
+148.8154 	EXP 	RatingScale rating: reset()
+148.8285 	EXP 	image: autoDraw = False
+148.8285 	EXP 	RatingText: text = 'Do you like this image?'
+148.8285 	EXP 	rating: autoDraw = True
+148.8285 	EXP 	RatingText: autoDraw = True
+150.1272 	DATA 	Mouse: Left button down, pos=(588,293)
+150.2429 	DATA 	Mouse:  Left button up, pos=(588,293)
+151.0772 	DATA 	Mouse: Left button down, pos=(812,195)
+151.0774 	DATA 	RatingScale rating: (mouse response) rating=Yes
+151.0774 	DATA 	RatingScale rating: rating RT=2.258
+151.0774 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.308), ('Yes', 2.258)]
+151.0933 	EXP 	New trial (rep=0, index=5): OrderedDict([('Blur', 'image/6-blur.jpg'), ('Original', 'image/6-original.jpg')])
+151.1693 	EXP 	rating: autoDraw = False
+151.1693 	EXP 	RatingText: autoDraw = False
+151.1693 	EXP 	baselineImage: image = 'image/6-blur.jpg'
+151.1693 	EXP 	baselineImage: autoDraw = True
+151.2420 	DATA 	Mouse:  Left button up, pos=(812,195)
+153.6869 	EXP 	baselineImage: autoDraw = False
+153.6869 	EXP 	image: image = 'image/6-original.jpg'
+153.6869 	EXP 	image: autoDraw = True
+158.3130 	EXP 	RatingScale rating: reset()
+158.3273 	EXP 	image: autoDraw = False
+158.3273 	EXP 	RatingText: text = 'Do you like this image?'
+158.3273 	EXP 	rating: autoDraw = True
+158.3273 	EXP 	RatingText: autoDraw = True
+159.5678 	DATA 	Mouse: Left button down, pos=(1051,315)
+159.7022 	DATA 	Mouse:  Left button up, pos=(1050,315)
+160.8363 	DATA 	Mouse: Left button down, pos=(803,206)
+160.8522 	DATA 	RatingScale rating: (mouse response) rating=No
+160.8522 	DATA 	RatingScale rating: rating RT=2.535
+160.8522 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.251), ('No', 2.535)]
+160.8678 	EXP 	New trial (rep=0, index=6): OrderedDict([('Blur', 'image/7-blur.jpg'), ('Original', 'image/7-original.jpg')])
+160.9386 	EXP 	rating: autoDraw = False
+160.9386 	EXP 	RatingText: autoDraw = False
+160.9386 	EXP 	baselineImage: image = 'image/7-blur.jpg'
+160.9386 	EXP 	baselineImage: autoDraw = True
+161.0071 	DATA 	Mouse:  Left button up, pos=(803,206)
+163.4587 	EXP 	baselineImage: autoDraw = False
+163.4587 	EXP 	image: image = 'image/7-original.jpg'
+163.4587 	EXP 	image: autoDraw = True
+168.1017 	EXP 	RatingScale rating: reset()
+168.1160 	EXP 	image: autoDraw = False
+168.1160 	EXP 	RatingText: text = 'Do you like this image?'
+168.1160 	EXP 	rating: autoDraw = True
+168.1160 	EXP 	RatingText: autoDraw = True
+169.3584 	DATA 	Mouse: Left button down, pos=(613,255)
+169.4582 	DATA 	Mouse:  Left button up, pos=(608,255)
+170.0920 	DATA 	Mouse: Left button down, pos=(582,289)
+170.1918 	DATA 	Mouse:  Left button up, pos=(582,289)
+170.8112 	DATA 	Mouse: Left button down, pos=(799,215)
+170.8116 	DATA 	RatingScale rating: (mouse response) rating=Yes
+170.8116 	DATA 	RatingScale rating: rating RT=2.706
+170.8116 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.986), ('Yes', 2.705)]
+170.8267 	EXP 	New trial (rep=0, index=7): OrderedDict([('Blur', 'image/8-blur.jpg'), ('Original', 'image/8-original.jpg')])
+170.9397 	EXP 	rating: autoDraw = False
+170.9397 	EXP 	RatingText: autoDraw = False
+170.9397 	EXP 	baselineImage: image = 'image/8-blur.jpg'
+170.9397 	EXP 	baselineImage: autoDraw = True
+170.9566 	DATA 	Mouse:  Left button up, pos=(799,215)
+173.4311 	EXP 	baselineImage: autoDraw = False
+173.4311 	EXP 	image: image = 'image/8-original.jpg'
+173.4311 	EXP 	image: autoDraw = True
+178.0719 	EXP 	RatingScale rating: reset()
+178.0894 	EXP 	image: autoDraw = False
+178.0894 	EXP 	RatingText: text = 'Do you like this image?'
+178.0894 	EXP 	rating: autoDraw = True
+178.0894 	EXP 	RatingText: autoDraw = True
+179.2198 	DATA 	Mouse: Left button down, pos=(1097,294)
+179.3330 	DATA 	Mouse:  Left button up, pos=(1097,294)
+180.0505 	DATA 	Mouse: Left button down, pos=(863,229)
+180.1667 	DATA 	Mouse:  Left button up, pos=(863,229)
+180.4834 	DATA 	Mouse: Left button down, pos=(861,217)
+180.4835 	DATA 	RatingScale rating: (mouse response) rating=No
+180.4835 	DATA 	RatingScale rating: rating RT=2.407
+180.4835 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.143), ('No', 2.407)]
+180.4993 	EXP 	New trial (rep=0, index=8): OrderedDict([('Blur', 'image/9-blur.jpg'), ('Original', 'image/9-original.jpg')])
+180.5653 	EXP 	rating: autoDraw = False
+180.5653 	EXP 	RatingText: autoDraw = False
+180.5653 	EXP 	baselineImage: image = 'image/9-blur.jpg'
+180.5653 	EXP 	baselineImage: autoDraw = True
+180.6140 	DATA 	Mouse:  Left button up, pos=(861,217)
+183.0890 	EXP 	baselineImage: autoDraw = False
+183.0890 	EXP 	image: image = 'image/9-original.jpg'
+183.0890 	EXP 	image: autoDraw = True
+187.7227 	EXP 	RatingScale rating: reset()
+187.7352 	EXP 	image: autoDraw = False
+187.7352 	EXP 	RatingText: text = 'Do you like this image?'
+187.7352 	EXP 	rating: autoDraw = True
+187.7352 	EXP 	RatingText: autoDraw = True
+190.4124 	DATA 	Mouse: Left button down, pos=(577,262)
+190.5242 	DATA 	Mouse:  Left button up, pos=(577,262)
+192.9274 	DATA 	Mouse: Left button down, pos=(609,319)
+193.0281 	DATA 	Mouse:  Left button up, pos=(609,319)
+194.9828 	DATA 	Mouse: Left button down, pos=(722,216)
+194.9834 	DATA 	RatingScale rating: (mouse response) rating=Yes
+194.9835 	DATA 	RatingScale rating: rating RT=7.257
+194.9835 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 5.201), ('Yes', 7.257)]
+194.9981 	EXP 	New trial (rep=0, index=9): OrderedDict([('Blur', 'image/10-blur.jpg'), ('Original', 'image/10-original.jpg')])
+195.0977 	DATA 	Mouse:  Left button up, pos=(722,216)
+195.1089 	EXP 	rating: autoDraw = False
+195.1089 	EXP 	RatingText: autoDraw = False
+195.1089 	EXP 	baselineImage: image = 'image/10-blur.jpg'
+195.1089 	EXP 	baselineImage: autoDraw = True
+197.6398 	EXP 	baselineImage: autoDraw = False
+197.6398 	EXP 	image: image = 'image/10-original.jpg'
+197.6398 	EXP 	image: autoDraw = True
+202.2823 	EXP 	RatingScale rating: reset()
+202.3007 	EXP 	image: autoDraw = False
+202.3007 	EXP 	RatingText: text = 'Do you like this image?'
+202.3007 	EXP 	rating: autoDraw = True
+202.3007 	EXP 	RatingText: autoDraw = True
+203.5408 	DATA 	Mouse: Left button down, pos=(1090,312)
+203.6505 	DATA 	Mouse:  Left button up, pos=(1090,312)
+204.3722 	DATA 	Mouse: Left button down, pos=(769,181)
+204.3726 	DATA 	RatingScale rating: (mouse response) rating=No
+204.3727 	DATA 	RatingScale rating: rating RT=2.086
+204.3727 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.255), ('No', 2.086)]
+204.3880 	EXP 	New trial (rep=0, index=10): OrderedDict([('Blur', 'image/11-blur.jpg'), ('Original', 'image/11-original.jpg')])
+204.4831 	DATA 	Mouse:  Left button up, pos=(769,181)
+204.4943 	EXP 	rating: autoDraw = False
+204.4943 	EXP 	RatingText: autoDraw = False
+204.4943 	EXP 	baselineImage: image = 'image/11-blur.jpg'
+204.4943 	EXP 	baselineImage: autoDraw = True
+207.0905 	EXP 	baselineImage: autoDraw = False
+207.0905 	EXP 	image: image = 'image/11-original.jpg'
+207.0905 	EXP 	image: autoDraw = True
+211.7330 	EXP 	RatingScale rating: reset()
+211.7480 	EXP 	image: autoDraw = False
+211.7480 	EXP 	RatingText: text = 'Do you like this image?'
+211.7480 	EXP 	rating: autoDraw = True
+211.7480 	EXP 	RatingText: autoDraw = True
+212.9758 	DATA 	Mouse: Left button down, pos=(589,280)
+213.0763 	DATA 	Mouse:  Left button up, pos=(589,280)
+213.6447 	DATA 	Mouse: Left button down, pos=(783,206)
+213.6451 	DATA 	RatingScale rating: (mouse response) rating=Yes
+213.6451 	DATA 	RatingScale rating: rating RT=1.907
+213.6452 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.238), ('Yes', 1.907)]
+213.6599 	EXP 	New trial (rep=0, index=11): OrderedDict([('Blur', 'image/12-blur.jpg'), ('Original', 'image/12-original.jpg')])
+213.7347 	EXP 	rating: autoDraw = False
+213.7347 	EXP 	RatingText: autoDraw = False
+213.7347 	EXP 	baselineImage: image = 'image/12-blur.jpg'
+213.7347 	EXP 	baselineImage: autoDraw = True
+213.7552 	DATA 	Mouse:  Left button up, pos=(783,206)
+216.2880 	EXP 	baselineImage: autoDraw = False
+216.2880 	EXP 	image: image = 'image/12-original.jpg'
+216.2880 	EXP 	image: autoDraw = True
+220.9319 	EXP 	RatingScale rating: reset()
+220.9485 	EXP 	image: autoDraw = False
+220.9485 	EXP 	RatingText: text = 'Do you like this image?'
+220.9485 	EXP 	rating: autoDraw = True
+220.9485 	EXP 	RatingText: autoDraw = True
+222.6837 	DATA 	Mouse: Left button down, pos=(1092,283)
+222.7661 	DATA 	Mouse:  Left button up, pos=(1092,283)
+223.4696 	DATA 	Mouse: Left button down, pos=(887,205)
+223.4852 	DATA 	RatingScale rating: (mouse response) rating=No
+223.4852 	DATA 	RatingScale rating: rating RT=2.549
+223.4852 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.748), ('No', 2.549)]
+223.5002 	EXP 	New trial (rep=0, index=12): OrderedDict([('Blur', 'image/13-blur.jpg'), ('Original', 'image/13-original.jpg')])
+223.5871 	EXP 	rating: autoDraw = False
+223.5871 	EXP 	RatingText: autoDraw = False
+223.5871 	EXP 	baselineImage: image = 'image/13-blur.jpg'
+223.5871 	EXP 	baselineImage: autoDraw = True
+223.5898 	DATA 	Mouse:  Left button up, pos=(887,205)
+226.1378 	EXP 	baselineImage: autoDraw = False
+226.1378 	EXP 	image: image = 'image/13-original.jpg'
+226.1378 	EXP 	image: autoDraw = True
+230.7785 	EXP 	RatingScale rating: reset()
+230.7949 	EXP 	image: autoDraw = False
+230.7949 	EXP 	RatingText: text = 'Do you like this image?'
+230.7949 	EXP 	rating: autoDraw = True
+230.7949 	EXP 	RatingText: autoDraw = True
+231.9276 	DATA 	Mouse: Left button down, pos=(589,264)
+232.0281 	DATA 	Mouse:  Left button up, pos=(589,264)
+233.1584 	DATA 	Mouse: Left button down, pos=(591,297)
+233.2755 	DATA 	Mouse:  Left button up, pos=(591,297)
+237.9981 	DATA 	Mouse: Left button down, pos=(729,205)
+237.9985 	DATA 	RatingScale rating: (mouse response) rating=Yes
+237.9986 	DATA 	RatingScale rating: rating RT=7.216
+237.9986 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 2.376), ('Yes', 7.216)]
+238.0136 	EXP 	New trial (rep=0, index=13): OrderedDict([('Blur', 'image/14-blur.jpg'), ('Original', 'image/14-original.jpg')])
+238.1098 	EXP 	rating: autoDraw = False
+238.1098 	EXP 	RatingText: autoDraw = False
+238.1098 	EXP 	baselineImage: image = 'image/14-blur.jpg'
+238.1098 	EXP 	baselineImage: autoDraw = True
+238.1123 	DATA 	Mouse:  Left button up, pos=(729,205)
+240.6621 	EXP 	baselineImage: autoDraw = False
+240.6621 	EXP 	image: image = 'image/14-original.jpg'
+240.6621 	EXP 	image: autoDraw = True
+245.2985 	EXP 	RatingScale rating: reset()
+245.3152 	EXP 	image: autoDraw = False
+245.3152 	EXP 	RatingText: text = 'Do you like this image?'
+245.3152 	EXP 	rating: autoDraw = True
+245.3152 	EXP 	RatingText: autoDraw = True
+246.3015 	DATA 	Mouse: Left button down, pos=(611,269)
+246.4166 	DATA 	Mouse:  Left button up, pos=(611,269)
+247.3524 	DATA 	Mouse: Left button down, pos=(674,316)
+247.4349 	DATA 	Mouse:  Left button up, pos=(674,316)
+247.9042 	DATA 	Mouse: Left button down, pos=(814,201)
+247.9047 	DATA 	RatingScale rating: (mouse response) rating=Yes
+247.9047 	DATA 	RatingScale rating: rating RT=2.602
+247.9048 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 2.05), ('Yes', 2.602)]
+247.9210 	EXP 	New trial (rep=0, index=14): OrderedDict([('Blur', 'image/15-blur.jpg'), ('Original', 'image/15-original.jpg')])
+248.0119 	DATA 	Mouse:  Left button up, pos=(814,201)
+248.0226 	EXP 	rating: autoDraw = False
+248.0226 	EXP 	RatingText: autoDraw = False
+248.0226 	EXP 	baselineImage: image = 'image/15-blur.jpg'
+248.0226 	EXP 	baselineImage: autoDraw = True
+250.5874 	EXP 	baselineImage: autoDraw = False
+250.5874 	EXP 	image: image = 'image/15-original.jpg'
+250.5874 	EXP 	image: autoDraw = True
+255.2272 	EXP 	RatingScale rating: reset()
+255.2447 	EXP 	image: autoDraw = False
+255.2447 	EXP 	RatingText: text = 'Do you like this image?'
+255.2447 	EXP 	rating: autoDraw = True
+255.2447 	EXP 	RatingText: autoDraw = True
+256.1422 	DATA 	Mouse: Left button down, pos=(1094,273)
+256.2411 	DATA 	Mouse:  Left button up, pos=(1094,273)
+256.6422 	DATA 	Mouse: Left button down, pos=(1084,300)
+256.7112 	DATA 	Mouse:  Left button up, pos=(1084,300)
+257.6455 	DATA 	Mouse: Left button down, pos=(856,185)
+257.6459 	DATA 	RatingScale rating: (mouse response) rating=No
+257.6459 	DATA 	RatingScale rating: rating RT=2.414
+257.6459 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.411), ('No', 2.414)]
+257.6614 	EXP 	New trial (rep=0, index=15): OrderedDict([('Blur', 'image/16-blur.jpg'), ('Original', 'image/16-original.jpg')])
+257.7507 	EXP 	rating: autoDraw = False
+257.7507 	EXP 	RatingText: autoDraw = False
+257.7507 	EXP 	baselineImage: image = 'image/16-blur.jpg'
+257.7507 	EXP 	baselineImage: autoDraw = True
+257.7531 	DATA 	Mouse:  Left button up, pos=(856,185)
+260.2795 	EXP 	baselineImage: autoDraw = False
+260.2795 	EXP 	image: image = 'image/16-original.jpg'
+260.2795 	EXP 	image: autoDraw = True
+264.9196 	EXP 	RatingScale rating: reset()
+264.9370 	EXP 	image: autoDraw = False
+264.9370 	EXP 	RatingText: text = 'Do you like this image?'
+264.9370 	EXP 	rating: autoDraw = True
+264.9370 	EXP 	RatingText: autoDraw = True
+266.4879 	DATA 	Mouse: Left button down, pos=(631,322)
+266.5852 	DATA 	Mouse:  Left button up, pos=(628,319)
+270.8059 	DATA 	Mouse: Left button down, pos=(910,209)
+270.8063 	DATA 	RatingScale rating: (mouse response) rating=Yes
+270.8063 	DATA 	RatingScale rating: rating RT=5.881
+270.8063 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.563), ('Yes', 5.881)]
+270.8211 	EXP 	New trial (rep=0, index=16): OrderedDict([('Blur', 'image/17-blur.jpg'), ('Original', 'image/17-original.jpg')])
+270.9051 	EXP 	rating: autoDraw = False
+270.9051 	EXP 	RatingText: autoDraw = False
+270.9051 	EXP 	baselineImage: image = 'image/17-blur.jpg'
+270.9051 	EXP 	baselineImage: autoDraw = True
+271.1340 	DATA 	Mouse:  Left button up, pos=(910,209)
+273.5236 	EXP 	baselineImage: autoDraw = False
+273.5236 	EXP 	image: image = 'image/17-original.jpg'
+273.5236 	EXP 	image: autoDraw = True
+278.1619 	EXP 	RatingScale rating: reset()
+278.1785 	EXP 	image: autoDraw = False
+278.1785 	EXP 	RatingText: text = 'Do you like this image?'
+278.1785 	EXP 	rating: autoDraw = True
+278.1785 	EXP 	RatingText: autoDraw = True
+280.1933 	DATA 	Mouse: Left button down, pos=(1016,319)
+280.3268 	DATA 	Mouse:  Left button up, pos=(1016,319)
+282.0138 	DATA 	Mouse: Left button down, pos=(895,174)
+282.0142 	DATA 	RatingScale rating: (mouse response) rating=No
+282.0143 	DATA 	RatingScale rating: rating RT=3.848
+282.0143 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 2.027), ('No', 3.848)]
+282.0299 	EXP 	New trial (rep=0, index=17): OrderedDict([('Blur', 'image/18-blur.jpg'), ('Original', 'image/18-original.jpg')])
+282.1295 	EXP 	rating: autoDraw = False
+282.1295 	EXP 	RatingText: autoDraw = False
+282.1295 	EXP 	baselineImage: image = 'image/18-blur.jpg'
+282.1295 	EXP 	baselineImage: autoDraw = True
+282.1748 	DATA 	Mouse:  Left button up, pos=(895,174)
+284.6926 	EXP 	baselineImage: autoDraw = False
+284.6926 	EXP 	image: image = 'image/18-original.jpg'
+284.6926 	EXP 	image: autoDraw = True
+289.3310 	EXP 	RatingScale rating: reset()
+289.3478 	EXP 	image: autoDraw = False
+289.3478 	EXP 	RatingText: text = 'Do you like this image?'
+289.3478 	EXP 	rating: autoDraw = True
+289.3478 	EXP 	RatingText: autoDraw = True
+290.9218 	DATA 	Mouse: Left button down, pos=(593,303)
+291.0363 	DATA 	Mouse:  Left button up, pos=(593,303)
+292.1532 	DATA 	Mouse: Left button down, pos=(773,211)
+292.1534 	DATA 	RatingScale rating: (mouse response) rating=Yes
+292.1534 	DATA 	RatingScale rating: rating RT=2.817
+292.1535 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.586), ('Yes', 2.817)]
+292.1685 	EXP 	New trial (rep=0, index=18): OrderedDict([('Blur', 'image/20-blur.jpg'), ('Original', 'image/20-original.jpg')])
+292.2408 	EXP 	rating: autoDraw = False
+292.2408 	EXP 	RatingText: autoDraw = False
+292.2408 	EXP 	baselineImage: image = 'image/20-blur.jpg'
+292.2408 	EXP 	baselineImage: autoDraw = True
+292.2996 	DATA 	Mouse:  Left button up, pos=(773,211)
+294.8208 	EXP 	baselineImage: autoDraw = False
+294.8208 	EXP 	image: image = 'image/20-original.jpg'
+294.8208 	EXP 	image: autoDraw = True
+299.4602 	EXP 	RatingScale rating: reset()
+299.4739 	EXP 	image: autoDraw = False
+299.4739 	EXP 	RatingText: text = 'Do you like this image?'
+299.4739 	EXP 	rating: autoDraw = True
+299.4739 	EXP 	RatingText: autoDraw = True
+300.8944 	DATA 	Mouse: Left button down, pos=(615,316)
+301.0105 	DATA 	Mouse:  Left button up, pos=(615,316)
+301.7781 	DATA 	Mouse: Left button down, pos=(809,198)
+301.7784 	DATA 	RatingScale rating: (mouse response) rating=Yes
+301.7785 	DATA 	RatingScale rating: rating RT=2.314
+301.7785 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.43), ('Yes', 2.314)]
+301.7934 	EXP 	New trial (rep=0, index=19): OrderedDict([('Blur', 'image/21-blur.jpg'), ('Original', 'image/21-original.jpg')])
+301.8772 	DATA 	Mouse:  Left button up, pos=(809,198)
+301.8885 	EXP 	rating: autoDraw = False
+301.8885 	EXP 	RatingText: autoDraw = False
+301.8885 	EXP 	baselineImage: image = 'image/21-blur.jpg'
+301.8885 	EXP 	baselineImage: autoDraw = True
+304.4471 	EXP 	baselineImage: autoDraw = False
+304.4471 	EXP 	image: image = 'image/21-original.jpg'
+304.4471 	EXP 	image: autoDraw = True
+309.0879 	EXP 	RatingScale rating: reset()
+309.1017 	EXP 	image: autoDraw = False
+309.1017 	EXP 	RatingText: text = 'Do you like this image?'
+309.1017 	EXP 	rating: autoDraw = True
+309.1017 	EXP 	RatingText: autoDraw = True
+309.9833 	DATA 	Mouse: Left button down, pos=(1084,306)
+310.0840 	DATA 	Mouse:  Left button up, pos=(1084,306)
+310.6860 	DATA 	Mouse: Left button down, pos=(808,191)
+310.6864 	DATA 	RatingScale rating: (mouse response) rating=No
+310.6864 	DATA 	RatingScale rating: rating RT=1.594
+310.6865 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 0.891), ('No', 1.594)]
+310.7016 	EXP 	New trial (rep=0, index=20): OrderedDict([('Blur', 'image/22-blur.jpg'), ('Original', 'image/22-original.jpg')])
+310.7844 	EXP 	rating: autoDraw = False
+310.7844 	EXP 	RatingText: autoDraw = False
+310.7844 	EXP 	baselineImage: image = 'image/22-blur.jpg'
+310.7844 	EXP 	baselineImage: autoDraw = True
+310.8301 	DATA 	Mouse:  Left button up, pos=(808,191)
+313.3044 	EXP 	baselineImage: autoDraw = False
+313.3044 	EXP 	image: image = 'image/22-original.jpg'
+313.3044 	EXP 	image: autoDraw = True
+317.9408 	EXP 	RatingScale rating: reset()
+317.9576 	EXP 	image: autoDraw = False
+317.9576 	EXP 	RatingText: text = 'Do you like this image?'
+317.9576 	EXP 	rating: autoDraw = True
+317.9576 	EXP 	RatingText: autoDraw = True
+318.9625 	DATA 	Mouse: Left button down, pos=(615,303)
+319.0774 	DATA 	Mouse:  Left button up, pos=(615,303)
+319.5929 	DATA 	Mouse: Left button down, pos=(842,184)
+319.5934 	DATA 	RatingScale rating: (mouse response) rating=Yes
+319.5934 	DATA 	RatingScale rating: rating RT=1.648
+319.5934 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.017), ('Yes', 1.648)]
+319.6093 	EXP 	New trial (rep=0, index=21): OrderedDict([('Blur', 'image/23-blur.jpg'), ('Original', 'image/23-original.jpg')])
+319.7082 	EXP 	rating: autoDraw = False
+319.7082 	EXP 	RatingText: autoDraw = False
+319.7082 	EXP 	baselineImage: image = 'image/23-blur.jpg'
+319.7082 	EXP 	baselineImage: autoDraw = True
+319.7107 	DATA 	Mouse:  Left button up, pos=(842,184)
+322.2483 	EXP 	baselineImage: autoDraw = False
+322.2483 	EXP 	image: image = 'image/23-original.jpg'
+322.2483 	EXP 	image: autoDraw = True
+326.8873 	EXP 	RatingScale rating: reset()
+326.9035 	EXP 	image: autoDraw = False
+326.9035 	EXP 	RatingText: text = 'Do you like this image?'
+326.9035 	EXP 	rating: autoDraw = True
+326.9035 	EXP 	RatingText: autoDraw = True
+328.5139 	DATA 	Mouse: Left button down, pos=(1109,278)
+328.6134 	DATA 	Mouse:  Left button up, pos=(1109,278)
+329.4994 	DATA 	Mouse: Left button down, pos=(939,221)
+329.6310 	DATA 	Mouse:  Left button up, pos=(939,221)
+330.2000 	DATA 	Mouse: Left button down, pos=(938,212)
+330.2003 	DATA 	RatingScale rating: (mouse response) rating=No
+330.2004 	DATA 	RatingScale rating: rating RT=3.309
+330.2004 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.623), ('No', 3.309)]
+330.2158 	EXP 	New trial (rep=0, index=22): OrderedDict([('Blur', 'image/24-blur.jpg'), ('Original', 'image/24-original.jpg')])
+330.2967 	EXP 	rating: autoDraw = False
+330.2967 	EXP 	RatingText: autoDraw = False
+330.2967 	EXP 	baselineImage: image = 'image/24-blur.jpg'
+330.2967 	EXP 	baselineImage: autoDraw = True
+330.3457 	DATA 	Mouse:  Left button up, pos=(938,212)
+332.8408 	EXP 	baselineImage: autoDraw = False
+332.8408 	EXP 	image: image = 'image/24-original.jpg'
+332.8408 	EXP 	image: autoDraw = True
+337.4780 	EXP 	RatingScale rating: reset()
+337.4930 	EXP 	image: autoDraw = False
+337.4930 	EXP 	RatingText: text = 'Do you like this image?'
+337.4930 	EXP 	rating: autoDraw = True
+337.4930 	EXP 	RatingText: autoDraw = True
+339.7785 	DATA 	Mouse: Left button down, pos=(1091,306)
+339.8881 	DATA 	Mouse:  Left button up, pos=(1091,306)
+340.9081 	DATA 	Mouse: Left button down, pos=(802,180)
+340.9084 	DATA 	RatingScale rating: (mouse response) rating=No
+340.9085 	DATA 	RatingScale rating: rating RT=3.426
+340.9085 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 2.296), ('No', 3.426)]
+340.9231 	EXP 	New trial (rep=0, index=23): OrderedDict([('Blur', 'image/25-blur.jpg'), ('Original', 'image/25-original.jpg')])
+341.0253 	DATA 	Mouse:  Left button up, pos=(802,180)
+341.0368 	EXP 	rating: autoDraw = False
+341.0368 	EXP 	RatingText: autoDraw = False
+341.0368 	EXP 	baselineImage: image = 'image/25-blur.jpg'
+341.0368 	EXP 	baselineImage: autoDraw = True
+343.6343 	EXP 	baselineImage: autoDraw = False
+343.6343 	EXP 	image: image = 'image/25-original.jpg'
+343.6343 	EXP 	image: autoDraw = True
+348.2732 	EXP 	RatingScale rating: reset()
+348.2893 	EXP 	image: autoDraw = False
+348.2893 	EXP 	RatingText: text = 'Do you like this image?'
+348.2893 	EXP 	rating: autoDraw = True
+348.2893 	EXP 	RatingText: autoDraw = True
+349.6807 	DATA 	Mouse: Left button down, pos=(1048,307)
+349.7807 	DATA 	Mouse:  Left button up, pos=(1048,307)
+350.4484 	DATA 	Mouse: Left button down, pos=(867,190)
+350.4488 	DATA 	RatingScale rating: (mouse response) rating=No
+350.4488 	DATA 	RatingScale rating: rating RT=2.171
+350.4488 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.403), ('No', 2.171)]
+350.4637 	EXP 	New trial (rep=0, index=24): OrderedDict([('Blur', 'image/26-blur.jpg'), ('Original', 'image/26-original.jpg')])
+350.5782 	EXP 	rating: autoDraw = False
+350.5782 	EXP 	RatingText: autoDraw = False
+350.5782 	EXP 	baselineImage: image = 'image/26-blur.jpg'
+350.5782 	EXP 	baselineImage: autoDraw = True
+350.6104 	DATA 	Mouse:  Left button up, pos=(867,190)
+353.1667 	EXP 	baselineImage: autoDraw = False
+353.1667 	EXP 	image: image = 'image/26-original.jpg'
+353.1667 	EXP 	image: autoDraw = True
+357.8065 	EXP 	RatingScale rating: reset()
+357.8236 	EXP 	image: autoDraw = False
+357.8236 	EXP 	RatingText: text = 'Do you like this image?'
+357.8236 	EXP 	rating: autoDraw = True
+357.8236 	EXP 	RatingText: autoDraw = True
+358.6868 	DATA 	Mouse: Left button down, pos=(1094,315)
+358.8371 	DATA 	Mouse:  Left button up, pos=(1094,315)
+359.5555 	DATA 	Mouse: Left button down, pos=(905,217)
+359.5559 	DATA 	RatingScale rating: (mouse response) rating=No
+359.5559 	DATA 	RatingScale rating: rating RT=1.745
+359.5559 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 0.876), ('No', 1.745)]
+359.5706 	EXP 	New trial (rep=0, index=25): OrderedDict([('Blur', 'image/27-blur.jpg'), ('Original', 'image/27-original.jpg')])
+359.6820 	EXP 	rating: autoDraw = False
+359.6820 	EXP 	RatingText: autoDraw = False
+359.6820 	EXP 	baselineImage: image = 'image/27-blur.jpg'
+359.6820 	EXP 	baselineImage: autoDraw = True
+359.6844 	DATA 	Mouse:  Left button up, pos=(905,217)
+362.2122 	EXP 	baselineImage: autoDraw = False
+362.2122 	EXP 	image: image = 'image/27-original.jpg'
+362.2122 	EXP 	image: autoDraw = True
+366.8554 	EXP 	RatingScale rating: reset()
+366.8685 	EXP 	image: autoDraw = False
+366.8685 	EXP 	RatingText: text = 'Do you like this image?'
+366.8685 	EXP 	rating: autoDraw = True
+366.8685 	EXP 	RatingText: autoDraw = True
+368.0782 	DATA 	Mouse: Left button down, pos=(596,315)
+368.2433 	DATA 	Mouse:  Left button up, pos=(596,315)
+369.2131 	DATA 	Mouse: Left button down, pos=(811,195)
+369.2134 	DATA 	RatingScale rating: (mouse response) rating=Yes
+369.2135 	DATA 	RatingScale rating: rating RT=2.354
+369.2135 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.219), ('Yes', 2.354)]
+369.2284 	EXP 	New trial (rep=0, index=26): OrderedDict([('Blur', 'image/28-blur.jpg'), ('Original', 'image/28-original.jpg')])
+369.3100 	EXP 	rating: autoDraw = False
+369.3100 	EXP 	RatingText: autoDraw = False
+369.3100 	EXP 	baselineImage: image = 'image/28-blur.jpg'
+369.3100 	EXP 	baselineImage: autoDraw = True
+369.3413 	DATA 	Mouse:  Left button up, pos=(811,195)
+371.8476 	EXP 	baselineImage: autoDraw = False
+371.8476 	EXP 	image: image = 'image/28-original.jpg'
+371.8476 	EXP 	image: autoDraw = True
+376.4851 	EXP 	RatingScale rating: reset()
+376.4983 	EXP 	image: autoDraw = False
+376.4983 	EXP 	RatingText: text = 'Do you like this image?'
+376.4983 	EXP 	rating: autoDraw = True
+376.4983 	EXP 	RatingText: autoDraw = True
+378.3520 	DATA 	Mouse: Left button down, pos=(1090,314)
+378.4688 	DATA 	Mouse:  Left button up, pos=(1090,314)
+379.3372 	DATA 	Mouse: Left button down, pos=(790,193)
+379.3375 	DATA 	RatingScale rating: (mouse response) rating=No
+379.3375 	DATA 	RatingScale rating: rating RT=2.848
+379.3375 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.863), ('No', 2.848)]
+379.3525 	EXP 	New trial (rep=0, index=27): OrderedDict([('Blur', 'image/29-blur.jpg'), ('Original', 'image/29-original.jpg')])
+379.4435 	EXP 	rating: autoDraw = False
+379.4435 	EXP 	RatingText: autoDraw = False
+379.4435 	EXP 	baselineImage: image = 'image/29-blur.jpg'
+379.4435 	EXP 	baselineImage: autoDraw = True
+379.4998 	DATA 	Mouse:  Left button up, pos=(790,193)
+382.0134 	EXP 	baselineImage: autoDraw = False
+382.0134 	EXP 	image: image = 'image/29-original.jpg'
+382.0134 	EXP 	image: autoDraw = True
+386.6511 	EXP 	RatingScale rating: reset()
+386.6674 	EXP 	image: autoDraw = False
+386.6674 	EXP 	RatingText: text = 'Do you like this image?'
+386.6674 	EXP 	rating: autoDraw = True
+386.6674 	EXP 	RatingText: autoDraw = True
+387.6977 	DATA 	Mouse: Left button down, pos=(609,308)
+387.8253 	DATA 	Mouse:  Left button up, pos=(609,308)
+388.3823 	DATA 	Mouse: Left button down, pos=(806,209)
+388.3828 	DATA 	RatingScale rating: (mouse response) rating=Yes
+388.3829 	DATA 	RatingScale rating: rating RT=1.727
+388.3829 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.042), ('Yes', 1.727)]
+388.3974 	EXP 	New trial (rep=0, index=28): OrderedDict([('Blur', 'image/30-blur.jpg'), ('Original', 'image/30-original.jpg')])
+388.5257 	DATA 	Mouse:  Left button up, pos=(806,209)
+388.5370 	EXP 	rating: autoDraw = False
+388.5370 	EXP 	RatingText: autoDraw = False
+388.5370 	EXP 	baselineImage: image = 'image/30-blur.jpg'
+388.5370 	EXP 	baselineImage: autoDraw = True
+391.0498 	EXP 	baselineImage: autoDraw = False
+391.0498 	EXP 	image: image = 'image/30-original.jpg'
+391.0498 	EXP 	image: autoDraw = True
+395.6872 	EXP 	RatingScale rating: reset()
+395.7016 	EXP 	image: autoDraw = False
+395.7016 	EXP 	RatingText: text = 'Do you like this image?'
+395.7016 	EXP 	rating: autoDraw = True
+395.7016 	EXP 	RatingText: autoDraw = True
+396.8326 	DATA 	Mouse: Left button down, pos=(1070,318)
+396.9494 	DATA 	Mouse:  Left button up, pos=(1070,318)
+397.6703 	DATA 	Mouse: Left button down, pos=(854,207)
+397.6707 	DATA 	RatingScale rating: (mouse response) rating=No
+397.6708 	DATA 	RatingScale rating: rating RT=1.979
+397.6708 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.141), ('No', 1.979)]
+397.6970 	EXP 	rating: autoDraw = False
+397.6970 	EXP 	RatingText: autoDraw = False
+397.6970 	EXP 	ThanksText: autoDraw = True
+397.8833 	DATA 	Mouse:  Left button up, pos=(854,207)
+399.4350 	DATA 	Mouse: Left button down, pos=(810,354)
+399.6001 	DATA 	Mouse:  Left button up, pos=(810,354)
+400.4523 	DATA 	Keypress: return
+400.4792 	EXP 	ThanksText: autoDraw = False
+400.5837 	EXP 	window1: mouseVisible = True
