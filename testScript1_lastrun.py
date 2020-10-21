@@ -31,10 +31,10 @@ import csv
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
-
+print('_thisDir; ',_thisDir)
 # Store info about the experiment session
 psychopyVersion = '3.2.3'
-expName = 'testScript1'  # from the Builder filename that created this script
+expName = 'EYEswipe'  # from the Builder filename that created this script
 expInfo = {'id*': '', 'participant*': '', 'Interested In(Men/Women)*': ''}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
 if dlg.OK == False:
@@ -44,20 +44,20 @@ expInfo['expName'] = expName
 expInfo['psychopyVersion'] = psychopyVersion
 
 # Data file name stem = absolute path + name; later add .psyexp, .csv, .log, etc
-filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant*'], expName, expInfo['date'])
-filename1 = _thisDir + os.sep + u'expInfo/%s_%s_%s' % (expInfo['participant*'], expName, expInfo['date'])
+filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['id*'], expName, expInfo['date'])
+filename1 = _thisDir + os.sep + u'expInfo/%s_%s_%s' % (expInfo['id*'], expName, expInfo['date'])
 csvfile = open(filename1+".csv", "a", newline='')
 writer = csv.writer(csvfile)
 writer.writerow(["Trial Number", "State", "Device timestamp","Left pupil diameter","Left pupil validity","Right pupil diameter","Right pupil validity", "Rating"])
 
-trialImages='menimgUrl.xlsx' if expInfo['Interested In(Men/Women)*'].lower() == 'men' else 'womenimgUrl.xlsx'
+trialImages='menimgUrl1.xlsx' if expInfo['Interested In(Men/Women)*'].lower() == 'men' else 'womenimgUrl.xlsx'
 print(trialImages)
 
 
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='E:\\skyarup\\testScript1\\testScript1_lastrun.py',
+    originPath=_thisDir + os.sep +'testScript1_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -147,13 +147,6 @@ eyetracker.subscribe_to(tr.EYETRACKER_GAZE_DATA, gaze_data_callback, as_dictiona
 print ("tobii inilialized")
 print(getTimeStamp())
 
-fileName = "expData/"+expInfo["id*"]+"_"+expInfo["participant*"]
-#extraInformation = {'name': expInfo["name"], 'id': expInfo["id"]}
-expData = data.ExperimentHandler(name='Eye swiping', 
-                version="1.0.0",
-                #extraInfo=extraInformation,
-                extraInfo=None,
-                dataFileName=fileName)
 
 # Initialize components for Routine "imageShow"
 imageShowClock = core.Clock()
@@ -165,54 +158,7 @@ image = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-import time
-import tobii_research as tr
-from msvcrt import getch
-import sys
-from psychopy import data
-
-# ref code used
-# http://devtobiipro.azurewebsites.net/tobii.research/python/reference/1.8.0.32-alpha-g5b38a1f5/gaze_data_8py-example.html
-
-# in sec
-timer = 5000
-# reading per sec
-frequency = 2
-global_gaze_data = None
-# in second
-fixation_threshhold = 0.5
-# minimum 
-fixation_tolerance = 0.0005
-
-imageId = 1
-
-def initTobii():
-    current_eye_tracker = tr.find_all_eyetrackers()[0]
-    # print(current_eye_tracker)
-    return current_eye_tracker
-
-
-def getTimeStamp():
-    return int((time.time() - start_time) * 1000)
-
-def gaze_data_callback(gaze_data):
-    global global_gaze_data
-    global_gaze_data = gaze_data
-
-start_time = time.time()
-eyetracker = initTobii();
-eyetracker.subscribe_to(tr.EYETRACKER_GAZE_DATA, gaze_data_callback, as_dictionary=True)
-print ("tobii inilialized")
-print(getTimeStamp())
-
-fileName = "expData/"+expInfo["id*"]+"_"+expInfo["participant*"]
-#extraInformation = {'name': expInfo["name"], 'id': expInfo["id"]}
-expData = data.ExperimentHandler(name='Eye swiping', 
-                version="1.0.0",
-                #extraInfo=extraInformation,
-                extraInfo=None,
-                dataFileName=fileName)
-
+    
 # Initialize components for Routine "Feedback"
 FeedbackClock = core.Clock()
 rating = visual.RatingScale(win=win, name='rating', marker='triangle', size=1.0, pos=[0.0, -0.4], choices=['Yes', 'No'], tickHeight=-1)
@@ -349,7 +295,7 @@ for thisTrial in trials:
     # ------Prepare to start Routine "Baseline"-------
     routineTimer.add(2.000000)
     # update component parameters for each repeat
-    baselineImage.setImage(Blur)
+    baselineImage.setImage(Scramble)
     
     start_time = time.time()
     allGazeData = []
@@ -402,9 +348,7 @@ for thisTrial in trials:
         allGazeData.append(global_gaze_data)
         csvGaze.append(['Trial'+str(counter),'baseline',global_gaze_data['device_time_stamp'],global_gaze_data['left_pupil_diameter'],global_gaze_data['left_pupil_validity'],global_gaze_data['right_pupil_diameter'],global_gaze_data['right_pupil_validity']])
         
-        
-        #expData.addData("Gaze Data", global_gaze_data)
-        
+       
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
             core.quit()
@@ -428,7 +372,6 @@ for thisTrial in trials:
             thisComponent.setAutoDraw(False)
     trials.addData('baselineImage.started', baselineImage.tStartRefresh)
     trials.addData('baselineImage.stopped', baselineImage.tStopRefresh)
-    expData.addData("Gaze Data "+str(imageId)+'blur', allGazeData)
     imageId=imageId+1
     
     # ------Prepare to start Routine "imageShow"-------
@@ -487,8 +430,6 @@ for thisTrial in trials:
         csvGaze.append(['Trial'+str(counter),'stimuli',global_gaze_data['device_time_stamp'],global_gaze_data['left_pupil_diameter'],global_gaze_data['left_pupil_validity'],global_gaze_data['right_pupil_diameter'],global_gaze_data['right_pupil_validity']])
         
         
-        #expData.addData("Gaze Data", global_gaze_data)
-        
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
             core.quit()
@@ -512,7 +453,6 @@ for thisTrial in trials:
             thisComponent.setAutoDraw(False)
     trials.addData('image.started', image.tStartRefresh)
     trials.addData('image.stopped', image.tStopRefresh)
-    expData.addData("Gaze Data "+str(imageId), allGazeData)
     imageId=imageId+1
     
     # ------Prepare to start Routine "Feedback"-------

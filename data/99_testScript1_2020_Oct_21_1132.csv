@@ -1,3 +1,0 @@
-﻿Blur,Original,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,TODO.started,TODO.stopped,baselineImage.started,baselineImage.stopped,image.started,image.stopped,rating.response,rating.rt,rating.started,rating.stopped,RatingText.started,RatingText.stopped,id,participant,date,expName,psychopyVersion,frameRate,
-image/1-blur.jpg,image/1-original.jpg,0,0,0,0,23.646304000052623,None,26.44989990000613,None,28.63164879998658,None,Yes,4.384,0.001044580014422536,None,33.3102002000669,None,Saif,99,2020_Oct_21_1132,testScript1,3.2.3,60.00222008507759,
-image/2-blur.jpg,image/2-original.jpg,0,1,1,1,,,38.318112700013444,None,40.5147072999971,None,Yes,3.672,0.014507579966448247,None,45.170073900022544,None,Saif,99,2020_Oct_21_1132,testScript1,3.2.3,60.00222008507759,
