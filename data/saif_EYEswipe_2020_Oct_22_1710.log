@@ -1,0 +1,63 @@
+12.4992 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002B620F42DA0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002B620FC51D0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1680, 1050]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.4993 	EXP 	window1: recordFrameIntervals = False
+12.6649 	EXP 	window1: recordFrameIntervals = True
+12.8483 	EXP 	window1: recordFrameIntervals = False
+13.1823 	EXP 	Created TODO = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TODO', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.1846 	EXP 	Created baselineImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='baselineImage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2.  , 1.33]), texRes=128, units='height', win=Window(...))
+15.2206 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2.  , 1.33]), texRes=128, units='height', win=Window(...))
+15.2936 	EXP 	Created rating = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=['Yes', 'No'], depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=-1, tickMarks=1.0, win=Window(...))
+15.3001 	EXP 	Created RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RatingText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+15.3179 	EXP 	Created ThanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ThanksText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.3553 	EXP 	rating: flipVert = False
+15.3553 	EXP 	rating: autoLog = True
+15.3553 	EXP 	TODO: autoDraw = True
+16.4525 	EXP 	Imported womenimgUrl.xlsx as conditions, 32 conditions, 2 params
+16.4532 	EXP 	Created sequence: sequential, trialTypes=32, nReps=1, seed=None
+16.4537 	EXP 	New trial (rep=0, index=0): OrderedDict([('Original', 'women/1-original.jpg'), ('Scramble', 'women/1-scramble.jpg')])
+16.9893 	DATA 	Keypress: space
+17.0026 	EXP 	TODO: autoDraw = False
+17.0026 	EXP 	baselineImage: image = 'women/1-scramble.jpg'
+17.0026 	EXP 	baselineImage: autoDraw = True
+19.0968 	EXP 	baselineImage: autoDraw = False
+19.0968 	EXP 	image: image = 'women/1-original.jpg'
+19.0968 	EXP 	image: autoDraw = True
+23.7230 	EXP 	RatingScale rating: reset()
+23.7934 	EXP 	image: autoDraw = False
+23.7934 	EXP 	RatingText: text = 'Do you like this image?'
+23.7934 	EXP 	rating: autoDraw = True
+23.7934 	EXP 	RatingText: autoDraw = True
+24.8809 	DATA 	Mouse: Left button down, pos=(608,318)
+24.9443 	DATA 	Mouse:  Left button up, pos=(608,318)
+25.4476 	DATA 	Mouse: Left button down, pos=(848,200)
+25.4480 	DATA 	RatingScale rating: (mouse response) rating=Yes
+25.4481 	DATA 	RatingScale rating: rating RT=1.687
+25.4481 	DATA 	RatingScale rating: history=[(None, 0.0), ('Yes', 1.12), ('Yes', 1.687)]
+25.4644 	EXP 	New trial (rep=0, index=1): OrderedDict([('Original', 'women/10-original.jpg'), ('Scramble', 'women/10-scramble.jpg')])
+26.0057 	DATA 	Mouse:  Left button up, pos=(848,200)
+26.0171 	EXP 	rating: autoDraw = False
+26.0171 	EXP 	RatingText: autoDraw = False
+26.0171 	EXP 	baselineImage: image = 'women/10-scramble.jpg'
+26.0171 	EXP 	baselineImage: autoDraw = True
+28.1236 	EXP 	baselineImage: autoDraw = False
+28.1236 	EXP 	image: image = 'women/10-original.jpg'
+28.1236 	EXP 	image: autoDraw = True
+32.7625 	EXP 	RatingScale rating: reset()
+32.7771 	EXP 	image: autoDraw = False
+32.7771 	EXP 	RatingText: text = 'Do you like this image?'
+32.7771 	EXP 	rating: autoDraw = True
+32.7771 	EXP 	RatingText: autoDraw = True
+33.9728 	DATA 	Mouse: Left button down, pos=(1044,322)
+34.0857 	DATA 	Mouse:  Left button up, pos=(1044,322)
+34.5762 	DATA 	Mouse: Left button down, pos=(738,200)
+34.5908 	DATA 	RatingScale rating: (mouse response) rating=No
+34.5908 	DATA 	RatingScale rating: rating RT=1.824
+34.5909 	DATA 	RatingScale rating: history=[(None, 0.0), ('No', 1.207), ('No', 1.824)]
+34.6184 	EXP 	New trial (rep=0, index=2): OrderedDict([('Original', 'women/11-original.jpg'), ('Scramble', 'women/11-scramble.jpg')])
+35.1859 	DATA 	Mouse:  Left button up, pos=(738,200)
+35.1985 	EXP 	rating: autoDraw = False
+35.1985 	EXP 	RatingText: autoDraw = False
+35.1985 	EXP 	baselineImage: image = 'women/11-scramble.jpg'
+35.1985 	EXP 	baselineImage: autoDraw = True
+35.7037 	DATA 	Mouse: Left button down, pos=(789,202)
+35.7041 	DATA 	Mouse:  Left button up, pos=(789,202)
+37.0868 	EXP 	window1: mouseVisible = True

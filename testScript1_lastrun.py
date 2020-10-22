@@ -45,14 +45,16 @@ expInfo['psychopyVersion'] = psychopyVersion
 
 # Data file name stem = absolute path + name; later add .psyexp, .csv, .log, etc
 filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['id*'], expName, expInfo['date'])
+# #################target csv file at the end of experimet
 filename1 = _thisDir + os.sep + u'expInfo/%s_%s_%s' % (expInfo['id*'], expName, expInfo['date'])
 csvfile = open(filename1+".csv", "a", newline='')
 writer = csv.writer(csvfile)
 writer.writerow(["Trial Number", "State", "Device timestamp","Left pupil diameter","Left pupil validity","Right pupil diameter","Right pupil validity", "Rating"])
-
-trialImages='menimgUrl1.xlsx' if expInfo['Interested In(Men/Women)*'].lower() == 'men' else 'womenimgUrl.xlsx'
+##########################################
+##sexual orientation check
+trialImages='menimgUrl.xlsx' if expInfo['Interested In(Men/Women)*'].lower() == 'men' else 'womenimgUrl.xlsx'
 print(trialImages)
-
+################################
 
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
@@ -119,7 +121,7 @@ from psychopy import data
 # in sec
 timer = 2000
 # reading per sec
-frequency = 2
+frequency = 10
 global_gaze_data = None
 # in second
 fixation_threshhold = 0.5
@@ -283,10 +285,11 @@ thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
 if thisTrial != None:
     for paramName in thisTrial:
         exec('{} = thisTrial[paramName]'.format(paramName))
-
+#####looop is started
+counter = 1
 for thisTrial in trials:
     currentLoop = trials
-    counter = 1
+    
     # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
     if thisTrial != None:
         for paramName in thisTrial:
@@ -346,6 +349,7 @@ for thisTrial in trials:
         print(getTimeStamp())
         
         allGazeData.append(global_gaze_data)
+        ###################collecting data for csv final reading(baseline)
         csvGaze.append(['Trial'+str(counter),'baseline',global_gaze_data['device_time_stamp'],global_gaze_data['left_pupil_diameter'],global_gaze_data['left_pupil_validity'],global_gaze_data['right_pupil_diameter'],global_gaze_data['right_pupil_validity']])
         
        
@@ -427,6 +431,7 @@ for thisTrial in trials:
         print(getTimeStamp())
         
         allGazeData.append(global_gaze_data)
+        ###################collecting data for csv final reading(main image)
         csvGaze.append(['Trial'+str(counter),'stimuli',global_gaze_data['device_time_stamp'],global_gaze_data['left_pupil_diameter'],global_gaze_data['left_pupil_validity'],global_gaze_data['right_pupil_diameter'],global_gaze_data['right_pupil_validity']])
         
         
@@ -557,11 +562,14 @@ for thisTrial in trials:
     # the Routine "Feedback" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
+
+    ######### adding feedback to all the readings with this subroutine
     for i in csvGaze:
         i.append(rating.getRating())
-
+    ### writing finally to a csv
     writer.writerows(csvGaze)
-    
+    counter += 1
+    #################################
 # completed 1 repeats of 'trials'
 
 
@@ -664,5 +672,5 @@ logging.flush()
 # make sure everything is closed down
 thisExp.abort()  # or data files will save again on exit
 win.close()
-csvfile.close()
+csvfile.close()# close the csv for experiment
 core.quit()
