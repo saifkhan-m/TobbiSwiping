@@ -150,7 +150,7 @@
         <Param name="disappear" updates="constant" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
-        <Param name="high" updates="constant" val="2" valType="code"/>
+        <Param name="high" updates="constant" val="6" valType="code"/>
         <Param name="labels" updates="constant" val="" valType="str"/>
         <Param name="low" updates="constant" val="1" valType="code"/>
         <Param name="marker" updates="constant" val="triangle" valType="str"/>

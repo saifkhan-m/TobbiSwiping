@@ -1,0 +1,4 @@
+﻿Original,Scramble,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,TODO.started,TODO.stopped,baselineImage.started,baselineImage.stopped,image.started,image.stopped,rating.response,rating.rt,rating.started,rating.stopped,RatingText.started,RatingText.stopped,id*,participant*,Interested In(Men/Women)*,date,expName,psychopyVersion,frameRate,
+women1/23-original.jpg,women1/23-scramble.jpg,0,0,0,15,10.404407900001388,None,11.21677020000061,None,13.225943299999926,None,None,None,0.00453406001906842,None,18.024602300021797,None,b,gh,hg,2020_Oct_27_1645,EYEswipe,3.2.3,59.81498030070539,
+women1/24-original.jpg,women1/24-scramble.jpg,0,1,1,16,,,33.37718750000931,None,35.383955600031186,None,None,None,0.01598655997077003,None,40.2266133600031,None,b,gh,hg,2020_Oct_27_1645,EYEswipe,3.2.3,59.81498030070539,
+,,,,,,,,40.444353999977466,None,,,,,,,,,,,,,,,,

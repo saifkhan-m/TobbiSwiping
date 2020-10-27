@@ -121,7 +121,7 @@ from psychopy import data
 # in sec
 timer = 2000
 # reading per sec
-frequency = 10
+frequency = 2
 global_gaze_data = None
 # in second
 fixation_threshhold = 0.5
@@ -163,7 +163,7 @@ image = visual.ImageStim(
     
 # Initialize components for Routine "Feedback"
 FeedbackClock = core.Clock()
-rating = visual.RatingScale(win=win, name='rating', marker='triangle', size=1.0, pos=[0.0, -0.4], choices=['Yes', 'No'], tickHeight=-1)
+rating = visual.RatingScale(win=win, name='rating', marker='triangle', low=1, high=4,size=1.0, labels=['Disliked','Liked'], pos=[0.0, -0.4], tickHeight=-1)
 NextImagePress = keyboard.Keyboard()
 RatingText = visual.TextStim(win=win, name='RatingText',
     text='default text',
@@ -564,8 +564,9 @@ for thisTrial in trials:
     thisExp.nextEntry()
 
     ######### adding feedback to all the readings with this subroutine
+    trial_rating= rating.getRating()
     for i in csvGaze:
-        i.append(rating.getRating())
+        i.append(trial_rating)
     ### writing finally to a csv
     writer.writerows(csvGaze)
     counter += 1
