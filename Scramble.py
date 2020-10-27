@@ -19,7 +19,7 @@ def scramble(key,fileName,basepath):
     fileNamelst=fileName.split('.')
     new_image.save(basepath+fileNamelst[0].replace('original', 'scramble')+'.'+fileNamelst[1])
 
-basepath = 'women/'
-#basepath = 'men/'
+#basepath = 'women1/'
+basepath = 'men1/'
 for img in os.listdir(basepath):
     scramble('abc',img,basepath)

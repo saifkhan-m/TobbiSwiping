@@ -1,8 +1,8 @@
 import os
 from itertools import groupby 
 
-#basepath = 'men/'
-basepath = 'women/'
+#basepath = 'men1/'
+basepath = 'women1/'
 imglst = os.listdir(basepath)
 imglst.sort() 
 res = [list(i) for j, i in groupby(imglst, 
