@@ -121,7 +121,7 @@ from psychopy import data
 # in sec
 timer = 2000
 # reading per sec
-frequency = 2
+frequency = 10
 global_gaze_data = None
 # in second
 fixation_threshhold = 0.5
@@ -163,7 +163,7 @@ image = visual.ImageStim(
     
 # Initialize components for Routine "Feedback"
 FeedbackClock = core.Clock()
-rating = visual.RatingScale(win=win, name='rating', marker='triangle', low=1, high=4,size=1.0, labels=['Disliked','Liked'], pos=[0.0, -0.4], tickHeight=-1)
+rating = visual.RatingScale(win=win, name='rating',scale='<1,2>=Disliked, <3,4>=Liked', marker='hover', low=1, high=4,size=1.0, choices=['1','2','3','4'], pos=[0.0, -0.4], tickHeight=-1)
 NextImagePress = keyboard.Keyboard()
 RatingText = visual.TextStim(win=win, name='RatingText',
     text='default text',
