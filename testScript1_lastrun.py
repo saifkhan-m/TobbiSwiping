@@ -275,7 +275,7 @@ thisExp.addData('TODO.stopped', TODO.tStopRefresh)
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-trials = data.TrialHandler(nReps=1, method='sequential', 
+trials = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions(trialImages),
     seed=None, name='trials')
