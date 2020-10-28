@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v3.2.3        on October 21, 2020, at 11:36
+This experiment was created using PsychoPy3 Experiment Builder (v3.2.3 on October 21, 2020, at 11:36
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -91,7 +91,7 @@ defaultKeyboard = keyboard.Keyboard()
 # Initialize components for Routine "Instruction"
 InstructionClock = core.Clock()
 TODO = visual.TextStim(win=win, name='TODO',
-    text='Welcome:\n\nEach picture is preceded by a scramblbed version, focus picture and think about whether you like the person or not, indicate your choice afterwards with a button press.\n\nPress any key to start the trial.',
+    text='Welcome to Eye Swiping Experiment\n\nProcedure:\n\n1) Dotted image is shown for 2 seconds followed by the main image for 5 seconds.\n\n2) During display of the main image, you need to focus on the image and think about whether you like the person or not and give your rating to the image from 1 to 4 by clicking on the displayed numbers.\n\n3) Follow this procedure for every presented image.\n\nPress any key to start the experiment.',
     font='Arial',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -163,7 +163,8 @@ image = visual.ImageStim(
     
 # Initialize components for Routine "Feedback"
 FeedbackClock = core.Clock()
-rating = visual.RatingScale(win=win, name='rating',scale='<1,2>=Disliked, <3,4>=Liked', marker='hover', low=1, high=4,size=1.0, choices=['1','2','3','4'], pos=[0.0, -0.4], tickHeight=-1)
+rating = visual.RatingScale(win=win, name='rating',#scale='1= Very Poor, 2= Poor\n3= Attractive, 4= Very Attractive'
+marker='hover', low=1, high=4,size=1.0, choices=['1','2','3','4'], pos=[0.0, -0.4], tickHeight=-1)
 NextImagePress = keyboard.Keyboard()
 RatingText = visual.TextStim(win=win, name='RatingText',
     text='default text',
@@ -465,7 +466,7 @@ for thisTrial in trials:
     rating.reset()
     NextImagePress.keys = []
     NextImagePress.rt = []
-    RatingText.setText('Do you like this image?')
+    RatingText.setText('Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n')
     # keep track of which components have finished
     FeedbackComponents = [rating, NextImagePress, RatingText]
     for thisComponent in FeedbackComponents:

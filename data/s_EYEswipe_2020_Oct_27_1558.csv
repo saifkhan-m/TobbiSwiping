@@ -1,6 +1,0 @@
-﻿Original,Scramble,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,TODO.started,TODO.stopped,baselineImage.started,baselineImage.stopped,image.started,image.stopped,rating.response,rating.rt,rating.started,rating.stopped,RatingText.started,RatingText.stopped,id*,participant*,Interested In(Men/Women)*,date,expName,psychopyVersion,frameRate,
-men1/1-original.jpg,men1/1-scramble.jpg,0,0,0,0,11.839884100016207,None,23.723372699983884,None,25.685769099975005,None,Yes,1.886,0.0005662199691869318,None,30.60622149996925,None,s,s,men,2020_Oct_27_1558,EYEswipe,3.2.3,59.95333233369406,
-men1/10-original.jpg,men1/10-scramble.jpg,0,1,1,1,,,32.705047699972056,None,34.714224399998784,None,No,2.719,0.0077296600211411715,None,39.62014429998817,None,s,s,men,2020_Oct_27_1558,EYEswipe,3.2.3,59.95333233369406,
-men1/11-original.jpg,men1/11-scramble.jpg,0,2,2,2,,,42.527491899963934,None,44.554407299961895,None,Yes,2.821,0.015065320010762662,None,49.456264699983876,None,s,s,men,2020_Oct_27_1558,EYEswipe,3.2.3,59.95333233369406,
-men1/12-original.jpg,men1/12-scramble.jpg,0,3,3,3,,,52.44443209999008,None,54.689680200011935,None,No,2.256,0.01607492007315159,None,59.36480440001469,None,s,s,men,2020_Oct_27_1558,EYEswipe,3.2.3,59.95333233369406,
-,,,,,,,,61.808695999963675,None,,,,,,,,,,,,,,,,
