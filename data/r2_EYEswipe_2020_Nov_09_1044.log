@@ -1,0 +1,633 @@
+15.6629 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A792C2CEF0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A792CB5320>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1680, 1050]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.6630 	EXP 	window1: recordFrameIntervals = False
+15.8284 	EXP 	window1: recordFrameIntervals = True
+16.0120 	EXP 	window1: recordFrameIntervals = False
+16.3316 	EXP 	Created TODO = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TODO', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.3337 	EXP 	Created baselineImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='baselineImage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2.  , 1.33]), texRes=128, units='height', win=Window(...))
+18.3662 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2.  , 1.33]), texRes=128, units='height', win=Window(...))
+18.4411 	EXP 	Created rating = RatingScale(__class__=type(...), acceptKeys=[], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=UNKNOWN, autoLog=True, choices=['1', '2', '3', '4'], depth=0, disappear=False, flipVert=False, high=3, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=TextStim(...), markerColor='darkorange', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=True, name='rating', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=[], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=False, showValue=True, singleClick=True, size=0.6, skipKeys=[], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.18000000000000002, tickHeight=-1, tickMarks=3.0, win=Window(...))
+18.4460 	EXP 	Created RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RatingText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+18.4708 	EXP 	Created ThanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ThanksText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.5060 	EXP 	rating: flipVert = False
+18.5060 	EXP 	rating: autoLog = True
+18.5060 	EXP 	TODO: autoDraw = True
+19.9353 	EXP 	Imported womenimgUrl.xlsx as conditions, 34 conditions, 2 params
+19.9356 	EXP 	Created sequence: random, trialTypes=34, nReps=1, seed=None
+19.9359 	EXP 	New trial (rep=0, index=0): OrderedDict([('Original', 'women1/31-original.jpg'), ('Scramble', 'women1/31-scramble.jpg')])
+19.9854 	DATA 	Keypress: return
+19.9963 	EXP 	TODO: autoDraw = False
+19.9963 	EXP 	baselineImage: image = 'women1/31-scramble.jpg'
+19.9963 	EXP 	baselineImage: autoDraw = True
+21.9856 	EXP 	baselineImage: autoDraw = False
+21.9856 	EXP 	image: image = 'women1/31-original.jpg'
+21.9856 	EXP 	image: autoDraw = True
+26.9065 	EXP 	RatingScale rating: reset()
+26.9665 	EXP 	image: autoDraw = False
+26.9665 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+26.9665 	EXP 	rating: autoDraw = True
+26.9665 	EXP 	RatingText: autoDraw = True
+28.5982 	DATA 	Mouse: Left button down, pos=(767,310)
+28.5984 	DATA 	RatingScale rating: (mouse single-click) rating=2
+28.5985 	DATA 	RatingScale rating: rating RT=1.642
+28.5985 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 1.642)]
+28.6304 	EXP 	New trial (rep=0, index=1): OrderedDict([('Original', 'women1/16-original.jpg'), ('Scramble', 'women1/16-scramble.jpg')])
+28.7092 	EXP 	rating: autoDraw = False
+28.7092 	EXP 	RatingText: autoDraw = False
+28.7092 	EXP 	baselineImage: image = 'women1/16-scramble.jpg'
+28.7092 	EXP 	baselineImage: autoDraw = True
+28.7899 	DATA 	Mouse:  Left button up, pos=(767,310)
+30.7398 	EXP 	baselineImage: autoDraw = False
+30.7398 	EXP 	image: image = 'women1/16-original.jpg'
+30.7398 	EXP 	image: autoDraw = True
+35.6324 	EXP 	RatingScale rating: reset()
+35.6457 	EXP 	image: autoDraw = False
+35.6457 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+35.6457 	EXP 	rating: autoDraw = True
+35.6457 	EXP 	RatingText: autoDraw = True
+36.5836 	DATA 	Mouse: Left button down, pos=(738,298)
+36.5837 	DATA 	RatingScale rating: (mouse single-click) rating=2
+36.5838 	DATA 	RatingScale rating: rating RT=0.948
+36.5838 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 0.947)]
+36.6021 	EXP 	New trial (rep=0, index=2): OrderedDict([('Original', 'women1/29-original.jpg'), ('Scramble', 'women1/29-scramble.jpg')])
+36.6699 	EXP 	rating: autoDraw = False
+36.6699 	EXP 	RatingText: autoDraw = False
+36.6699 	EXP 	baselineImage: image = 'women1/29-scramble.jpg'
+36.6699 	EXP 	baselineImage: autoDraw = True
+36.7504 	DATA 	Mouse:  Left button up, pos=(738,298)
+38.6659 	EXP 	baselineImage: autoDraw = False
+38.6659 	EXP 	image: image = 'women1/29-original.jpg'
+38.6659 	EXP 	image: autoDraw = True
+43.6128 	EXP 	RatingScale rating: reset()
+43.6302 	EXP 	image: autoDraw = False
+43.6302 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+43.6302 	EXP 	rating: autoDraw = True
+43.6302 	EXP 	RatingText: autoDraw = True
+44.7057 	DATA 	Mouse: Left button down, pos=(924,308)
+44.7058 	DATA 	RatingScale rating: (mouse single-click) rating=3
+44.7059 	DATA 	RatingScale rating: rating RT=1.089
+44.7060 	DATA 	RatingScale rating: history=[(None, 0.0), ('3', 1.089)]
+44.7244 	EXP 	New trial (rep=0, index=3): OrderedDict([('Original', 'women1/10-original.jpg'), ('Scramble', 'women1/10-scramble.jpg')])
+44.8696 	EXP 	rating: autoDraw = False
+44.8696 	EXP 	RatingText: autoDraw = False
+44.8696 	EXP 	baselineImage: image = 'women1/10-scramble.jpg'
+44.8696 	EXP 	baselineImage: autoDraw = True
+44.8892 	DATA 	Mouse:  Left button up, pos=(924,308)
+46.8492 	EXP 	baselineImage: autoDraw = False
+46.8492 	EXP 	image: image = 'women1/10-original.jpg'
+46.8492 	EXP 	image: autoDraw = True
+51.7300 	EXP 	RatingScale rating: reset()
+51.7538 	EXP 	image: autoDraw = False
+51.7538 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+51.7538 	EXP 	rating: autoDraw = True
+51.7538 	EXP 	RatingText: autoDraw = True
+52.3625 	DATA 	Mouse: Left button down, pos=(933,308)
+52.3626 	DATA 	RatingScale rating: (mouse single-click) rating=3
+52.3627 	DATA 	RatingScale rating: rating RT=0.629
+52.3627 	DATA 	RatingScale rating: history=[(None, 0.0), ('3', 0.629)]
+52.3804 	EXP 	New trial (rep=0, index=4): OrderedDict([('Original', 'women1/19-original.jpg'), ('Scramble', 'women1/19-scramble.jpg')])
+52.4540 	EXP 	rating: autoDraw = False
+52.4540 	EXP 	RatingText: autoDraw = False
+52.4540 	EXP 	baselineImage: image = 'women1/19-scramble.jpg'
+52.4540 	EXP 	baselineImage: autoDraw = True
+52.4734 	DATA 	Mouse:  Left button up, pos=(933,308)
+54.4346 	EXP 	baselineImage: autoDraw = False
+54.4346 	EXP 	image: image = 'women1/19-original.jpg'
+54.4346 	EXP 	image: autoDraw = True
+59.4017 	EXP 	RatingScale rating: reset()
+59.4262 	EXP 	image: autoDraw = False
+59.4262 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+59.4262 	EXP 	rating: autoDraw = True
+59.4262 	EXP 	RatingText: autoDraw = True
+60.8019 	DATA 	Mouse: Left button down, pos=(791,313)
+60.8020 	DATA 	RatingScale rating: (mouse single-click) rating=2
+60.8021 	DATA 	RatingScale rating: rating RT=1.397
+60.8021 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 1.397)]
+60.8210 	EXP 	New trial (rep=0, index=5): OrderedDict([('Original', 'women1/9-original.jpg'), ('Scramble', 'women1/9-scramble.jpg')])
+60.9569 	EXP 	rating: autoDraw = False
+60.9569 	EXP 	RatingText: autoDraw = False
+60.9569 	EXP 	baselineImage: image = 'women1/9-scramble.jpg'
+60.9569 	EXP 	baselineImage: autoDraw = True
+60.9768 	DATA 	Mouse:  Left button up, pos=(791,313)
+62.9311 	EXP 	baselineImage: autoDraw = False
+62.9311 	EXP 	image: image = 'women1/9-original.jpg'
+62.9311 	EXP 	image: autoDraw = True
+67.8487 	EXP 	RatingScale rating: reset()
+67.8613 	EXP 	image: autoDraw = False
+67.8613 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+67.8613 	EXP 	rating: autoDraw = True
+67.8613 	EXP 	RatingText: autoDraw = True
+68.7592 	DATA 	Mouse: Left button down, pos=(601,323)
+68.7593 	DATA 	RatingScale rating: (mouse single-click) rating=1
+68.7594 	DATA 	RatingScale rating: rating RT=0.907
+68.7595 	DATA 	RatingScale rating: history=[(None, 0.0), ('1', 0.907)]
+68.7788 	EXP 	New trial (rep=0, index=6): OrderedDict([('Original', 'women1/21-original.jpg'), ('Scramble', 'women1/21-scramble.jpg')])
+68.8486 	EXP 	rating: autoDraw = False
+68.8486 	EXP 	RatingText: autoDraw = False
+68.8486 	EXP 	baselineImage: image = 'women1/21-scramble.jpg'
+68.8486 	EXP 	baselineImage: autoDraw = True
+68.8981 	DATA 	Mouse:  Left button up, pos=(601,323)
+70.8530 	EXP 	baselineImage: autoDraw = False
+70.8530 	EXP 	image: image = 'women1/21-original.jpg'
+70.8530 	EXP 	image: autoDraw = True
+75.7824 	EXP 	RatingScale rating: reset()
+75.8054 	EXP 	image: autoDraw = False
+75.8054 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+75.8054 	EXP 	rating: autoDraw = True
+75.8054 	EXP 	RatingText: autoDraw = True
+76.3326 	DATA 	Mouse: Left button down, pos=(603,323)
+76.3474 	DATA 	RatingScale rating: (mouse single-click) rating=1
+76.3475 	DATA 	RatingScale rating: rating RT=0.561
+76.3475 	DATA 	RatingScale rating: history=[(None, 0.0), ('1', 0.561)]
+76.3651 	EXP 	New trial (rep=0, index=7): OrderedDict([('Original', 'women1/26-original.jpg'), ('Scramble', 'women1/26-scramble.jpg')])
+76.4423 	EXP 	rating: autoDraw = False
+76.4423 	EXP 	RatingText: autoDraw = False
+76.4423 	EXP 	baselineImage: image = 'women1/26-scramble.jpg'
+76.4423 	EXP 	baselineImage: autoDraw = True
+76.5234 	DATA 	Mouse:  Left button up, pos=(603,323)
+78.4289 	EXP 	baselineImage: autoDraw = False
+78.4289 	EXP 	image: image = 'women1/26-original.jpg'
+78.4289 	EXP 	image: autoDraw = True
+83.3670 	EXP 	RatingScale rating: reset()
+83.3817 	EXP 	image: autoDraw = False
+83.3817 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+83.3817 	EXP 	rating: autoDraw = True
+83.3817 	EXP 	RatingText: autoDraw = True
+84.0363 	DATA 	Mouse: Left button down, pos=(590,312)
+84.0364 	DATA 	RatingScale rating: (mouse single-click) rating=1
+84.0365 	DATA 	RatingScale rating: rating RT=0.666
+84.0365 	DATA 	RatingScale rating: history=[(None, 0.0), ('1', 0.666)]
+84.0545 	EXP 	New trial (rep=0, index=8): OrderedDict([('Original', 'women1/28-original.jpg'), ('Scramble', 'women1/28-scramble.jpg')])
+84.1187 	EXP 	rating: autoDraw = False
+84.1187 	EXP 	RatingText: autoDraw = False
+84.1187 	EXP 	baselineImage: image = 'women1/28-scramble.jpg'
+84.1187 	EXP 	baselineImage: autoDraw = True
+84.2001 	DATA 	Mouse:  Left button up, pos=(590,309)
+86.1328 	EXP 	baselineImage: autoDraw = False
+86.1328 	EXP 	image: image = 'women1/28-original.jpg'
+86.1328 	EXP 	image: autoDraw = True
+91.0771 	EXP 	RatingScale rating: reset()
+91.1004 	EXP 	image: autoDraw = False
+91.1004 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+91.1004 	EXP 	rating: autoDraw = True
+91.1004 	EXP 	RatingText: autoDraw = True
+92.2284 	DATA 	Mouse: Left button down, pos=(747,302)
+92.2435 	DATA 	RatingScale rating: (mouse single-click) rating=2
+92.2437 	DATA 	RatingScale rating: rating RT=1.163
+92.2437 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 1.163)]
+92.2615 	EXP 	New trial (rep=0, index=9): OrderedDict([('Original', 'women1/27-original.jpg'), ('Scramble', 'women1/27-scramble.jpg')])
+92.3350 	EXP 	rating: autoDraw = False
+92.3350 	EXP 	RatingText: autoDraw = False
+92.3350 	EXP 	baselineImage: image = 'women1/27-scramble.jpg'
+92.3350 	EXP 	baselineImage: autoDraw = True
+92.3868 	DATA 	Mouse:  Left button up, pos=(747,302)
+94.3274 	EXP 	baselineImage: autoDraw = False
+94.3274 	EXP 	image: image = 'women1/27-original.jpg'
+94.3274 	EXP 	image: autoDraw = True
+99.2629 	EXP 	RatingScale rating: reset()
+99.2775 	EXP 	image: autoDraw = False
+99.2775 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+99.2775 	EXP 	rating: autoDraw = True
+99.2775 	EXP 	RatingText: autoDraw = True
+100.1324 	DATA 	Mouse: Left button down, pos=(762,304)
+100.1326 	DATA 	RatingScale rating: (mouse single-click) rating=2
+100.1327 	DATA 	RatingScale rating: rating RT=0.866
+100.1327 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 0.866)]
+100.1509 	EXP 	New trial (rep=0, index=10): OrderedDict([('Original', 'women1/17-original.jpg'), ('Scramble', 'women1/17-scramble.jpg')])
+100.2971 	EXP 	rating: autoDraw = False
+100.2971 	EXP 	RatingText: autoDraw = False
+100.2971 	EXP 	baselineImage: image = 'women1/17-scramble.jpg'
+100.2971 	EXP 	baselineImage: autoDraw = True
+100.3167 	DATA 	Mouse:  Left button up, pos=(762,304)
+102.3175 	EXP 	baselineImage: autoDraw = False
+102.3175 	EXP 	image: image = 'women1/17-original.jpg'
+102.3175 	EXP 	image: autoDraw = True
+107.1647 	EXP 	RatingScale rating: reset()
+107.1792 	EXP 	image: autoDraw = False
+107.1792 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+107.1792 	EXP 	rating: autoDraw = True
+107.1792 	EXP 	RatingText: autoDraw = True
+108.2419 	DATA 	Mouse: Left button down, pos=(594,317)
+108.2423 	DATA 	RatingScale rating: (mouse single-click) rating=1
+108.2425 	DATA 	RatingScale rating: rating RT=1.074
+108.2425 	DATA 	RatingScale rating: history=[(None, 0.0), ('1', 1.074)]
+108.2629 	EXP 	New trial (rep=0, index=11): OrderedDict([('Original', 'women1/30-original.jpg'), ('Scramble', 'women1/30-scramble.jpg')])
+108.3662 	EXP 	rating: autoDraw = False
+108.3662 	EXP 	RatingText: autoDraw = False
+108.3662 	EXP 	baselineImage: image = 'women1/30-scramble.jpg'
+108.3662 	EXP 	baselineImage: autoDraw = True
+108.3868 	DATA 	Mouse:  Left button up, pos=(593,317)
+110.3268 	EXP 	baselineImage: autoDraw = False
+110.3268 	EXP 	image: image = 'women1/30-original.jpg'
+110.3268 	EXP 	image: autoDraw = True
+115.2894 	EXP 	RatingScale rating: reset()
+115.3044 	EXP 	image: autoDraw = False
+115.3044 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+115.3044 	EXP 	rating: autoDraw = True
+115.3044 	EXP 	RatingText: autoDraw = True
+116.4952 	DATA 	Mouse: Left button down, pos=(914,306)
+116.4953 	DATA 	RatingScale rating: (mouse single-click) rating=3
+116.4954 	DATA 	RatingScale rating: rating RT=1.202
+116.4954 	DATA 	RatingScale rating: history=[(None, 0.0), ('3', 1.202)]
+116.5126 	EXP 	New trial (rep=0, index=12): OrderedDict([('Original', 'women1/11-original.jpg'), ('Scramble', 'women1/11-scramble.jpg')])
+116.5773 	EXP 	rating: autoDraw = False
+116.5773 	EXP 	RatingText: autoDraw = False
+116.5773 	EXP 	baselineImage: image = 'women1/11-scramble.jpg'
+116.5773 	EXP 	baselineImage: autoDraw = True
+116.6589 	DATA 	Mouse:  Left button up, pos=(914,306)
+118.5875 	EXP 	baselineImage: autoDraw = False
+118.5875 	EXP 	image: image = 'women1/11-original.jpg'
+118.5875 	EXP 	image: autoDraw = True
+123.5225 	EXP 	RatingScale rating: reset()
+123.5349 	EXP 	image: autoDraw = False
+123.5349 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+123.5349 	EXP 	rating: autoDraw = True
+123.5349 	EXP 	RatingText: autoDraw = True
+124.5842 	DATA 	Mouse: Left button down, pos=(1087,301)
+124.5843 	DATA 	RatingScale rating: (mouse single-click) rating=4
+124.5844 	DATA 	RatingScale rating: rating RT=1.058
+124.5844 	DATA 	RatingScale rating: history=[(None, 0.0), ('4', 1.058)]
+124.6025 	EXP 	New trial (rep=0, index=13): OrderedDict([('Original', 'women1/33-original.jpg'), ('Scramble', 'women1/33-scramble.jpg')])
+124.6769 	EXP 	rating: autoDraw = False
+124.6769 	EXP 	RatingText: autoDraw = False
+124.6769 	EXP 	baselineImage: image = 'women1/33-scramble.jpg'
+124.6769 	EXP 	baselineImage: autoDraw = True
+124.7265 	DATA 	Mouse:  Left button up, pos=(1087,301)
+126.6768 	EXP 	baselineImage: autoDraw = False
+126.6768 	EXP 	image: image = 'women1/33-original.jpg'
+126.6768 	EXP 	image: autoDraw = True
+131.6192 	EXP 	RatingScale rating: reset()
+131.6340 	EXP 	image: autoDraw = False
+131.6340 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+131.6340 	EXP 	rating: autoDraw = True
+131.6340 	EXP 	RatingText: autoDraw = True
+132.5404 	DATA 	Mouse: Left button down, pos=(765,318)
+132.5405 	DATA 	RatingScale rating: (mouse single-click) rating=2
+132.5406 	DATA 	RatingScale rating: rating RT=0.918
+132.5406 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 0.917)]
+132.5579 	EXP 	New trial (rep=0, index=14): OrderedDict([('Original', 'women1/15-original.jpg'), ('Scramble', 'women1/15-scramble.jpg')])
+132.6281 	EXP 	rating: autoDraw = False
+132.6281 	EXP 	RatingText: autoDraw = False
+132.6281 	EXP 	baselineImage: image = 'women1/15-scramble.jpg'
+132.6281 	EXP 	baselineImage: autoDraw = True
+132.6784 	DATA 	Mouse:  Left button up, pos=(765,318)
+134.6363 	EXP 	baselineImage: autoDraw = False
+134.6363 	EXP 	image: image = 'women1/15-original.jpg'
+134.6363 	EXP 	image: autoDraw = True
+139.5750 	EXP 	RatingScale rating: reset()
+139.5904 	EXP 	image: autoDraw = False
+139.5904 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+139.5904 	EXP 	rating: autoDraw = True
+139.5904 	EXP 	RatingText: autoDraw = True
+140.4800 	DATA 	Mouse: Left button down, pos=(582,315)
+140.4801 	DATA 	RatingScale rating: (mouse single-click) rating=1
+140.4802 	DATA 	RatingScale rating: rating RT=0.901
+140.4803 	DATA 	RatingScale rating: history=[(None, 0.0), ('1', 0.901)]
+140.4979 	EXP 	New trial (rep=0, index=15): OrderedDict([('Original', 'women1/25-original.jpg'), ('Scramble', 'women1/25-scramble.jpg')])
+140.5722 	EXP 	rating: autoDraw = False
+140.5722 	EXP 	RatingText: autoDraw = False
+140.5722 	EXP 	baselineImage: image = 'women1/25-scramble.jpg'
+140.5722 	EXP 	baselineImage: autoDraw = True
+140.6222 	DATA 	Mouse:  Left button up, pos=(582,315)
+142.5676 	EXP 	baselineImage: autoDraw = False
+142.5676 	EXP 	image: image = 'women1/25-original.jpg'
+142.5676 	EXP 	image: autoDraw = True
+147.5097 	EXP 	RatingScale rating: reset()
+147.5229 	EXP 	image: autoDraw = False
+147.5229 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+147.5229 	EXP 	rating: autoDraw = True
+147.5229 	EXP 	RatingText: autoDraw = True
+148.6534 	DATA 	Mouse: Left button down, pos=(750,303)
+148.6536 	DATA 	RatingScale rating: (mouse single-click) rating=2
+148.6537 	DATA 	RatingScale rating: rating RT=1.140
+148.6537 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 1.14)]
+148.6721 	EXP 	New trial (rep=0, index=16): OrderedDict([('Original', 'women1/13-original.jpg'), ('Scramble', 'women1/13-scramble.jpg')])
+148.7488 	EXP 	rating: autoDraw = False
+148.7488 	EXP 	RatingText: autoDraw = False
+148.7488 	EXP 	baselineImage: image = 'women1/13-scramble.jpg'
+148.7488 	EXP 	baselineImage: autoDraw = True
+148.7981 	DATA 	Mouse:  Left button up, pos=(750,303)
+150.7432 	EXP 	baselineImage: autoDraw = False
+150.7432 	EXP 	image: image = 'women1/13-original.jpg'
+150.7432 	EXP 	image: autoDraw = True
+155.7016 	EXP 	RatingScale rating: reset()
+155.7161 	EXP 	image: autoDraw = False
+155.7161 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+155.7161 	EXP 	rating: autoDraw = True
+155.7161 	EXP 	RatingText: autoDraw = True
+157.2766 	DATA 	Mouse: Left button down, pos=(1101,298)
+157.2768 	DATA 	RatingScale rating: (mouse single-click) rating=4
+157.2769 	DATA 	RatingScale rating: rating RT=1.571
+157.2769 	DATA 	RatingScale rating: history=[(None, 0.0), ('4', 1.571)]
+157.2950 	EXP 	New trial (rep=0, index=17): OrderedDict([('Original', 'women1/4-original.jpg'), ('Scramble', 'women1/4-scramble.jpg')])
+157.4254 	EXP 	rating: autoDraw = False
+157.4254 	EXP 	RatingText: autoDraw = False
+157.4254 	EXP 	baselineImage: image = 'women1/4-scramble.jpg'
+157.4254 	EXP 	baselineImage: autoDraw = True
+157.4756 	DATA 	Mouse:  Left button up, pos=(1101,298)
+159.4809 	EXP 	baselineImage: autoDraw = False
+159.4809 	EXP 	image: image = 'women1/4-original.jpg'
+159.4809 	EXP 	image: autoDraw = True
+164.3048 	EXP 	RatingScale rating: reset()
+164.3174 	EXP 	image: autoDraw = False
+164.3174 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+164.3174 	EXP 	rating: autoDraw = True
+164.3174 	EXP 	RatingText: autoDraw = True
+165.6990 	DATA 	Mouse: Left button down, pos=(579,307)
+165.6991 	DATA 	RatingScale rating: (mouse single-click) rating=1
+165.6992 	DATA 	RatingScale rating: rating RT=1.391
+165.6993 	DATA 	RatingScale rating: history=[(None, 0.0), ('1', 1.391)]
+165.7166 	EXP 	New trial (rep=0, index=18): OrderedDict([('Original', 'women1/32-original.jpg'), ('Scramble', 'women1/32-scramble.jpg')])
+165.7784 	EXP 	rating: autoDraw = False
+165.7784 	EXP 	RatingText: autoDraw = False
+165.7784 	EXP 	baselineImage: image = 'women1/32-scramble.jpg'
+165.7784 	EXP 	baselineImage: autoDraw = True
+165.8584 	DATA 	Mouse:  Left button up, pos=(579,307)
+167.7981 	EXP 	baselineImage: autoDraw = False
+167.7981 	EXP 	image: image = 'women1/32-original.jpg'
+167.7981 	EXP 	image: autoDraw = True
+172.7271 	EXP 	RatingScale rating: reset()
+172.7399 	EXP 	image: autoDraw = False
+172.7399 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+172.7399 	EXP 	rating: autoDraw = True
+172.7399 	EXP 	RatingText: autoDraw = True
+173.5546 	DATA 	Mouse: Left button down, pos=(769,315)
+173.5547 	DATA 	RatingScale rating: (mouse single-click) rating=2
+173.5548 	DATA 	RatingScale rating: rating RT=0.824
+173.5548 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 0.824)]
+173.5719 	EXP 	New trial (rep=0, index=19): OrderedDict([('Original', 'women1/8-original.jpg'), ('Scramble', 'women1/8-scramble.jpg')])
+173.6950 	EXP 	rating: autoDraw = False
+173.6950 	EXP 	RatingText: autoDraw = False
+173.6950 	EXP 	baselineImage: image = 'women1/8-scramble.jpg'
+173.6950 	EXP 	baselineImage: autoDraw = True
+173.7146 	DATA 	Mouse:  Left button up, pos=(769,315)
+175.6906 	EXP 	baselineImage: autoDraw = False
+175.6906 	EXP 	image: image = 'women1/8-original.jpg'
+175.6906 	EXP 	image: autoDraw = True
+180.6702 	EXP 	RatingScale rating: reset()
+180.6834 	EXP 	image: autoDraw = False
+180.6834 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+180.6834 	EXP 	rating: autoDraw = True
+180.6834 	EXP 	RatingText: autoDraw = True
+181.6940 	DATA 	Mouse: Left button down, pos=(1097,306)
+181.6942 	DATA 	RatingScale rating: (mouse single-click) rating=4
+181.6942 	DATA 	RatingScale rating: rating RT=1.020
+181.6943 	DATA 	RatingScale rating: history=[(None, 0.0), ('4', 1.02)]
+181.7114 	EXP 	New trial (rep=0, index=20): OrderedDict([('Original', 'women1/14-original.jpg'), ('Scramble', 'women1/14-scramble.jpg')])
+181.7757 	EXP 	rating: autoDraw = False
+181.7757 	EXP 	RatingText: autoDraw = False
+181.7757 	EXP 	baselineImage: image = 'women1/14-scramble.jpg'
+181.7757 	EXP 	baselineImage: autoDraw = True
+181.8562 	DATA 	Mouse:  Left button up, pos=(1097,306)
+183.7874 	EXP 	baselineImage: autoDraw = False
+183.7874 	EXP 	image: image = 'women1/14-original.jpg'
+183.7874 	EXP 	image: autoDraw = True
+188.7380 	EXP 	RatingScale rating: reset()
+188.7509 	EXP 	image: autoDraw = False
+188.7509 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+188.7509 	EXP 	rating: autoDraw = True
+188.7509 	EXP 	RatingText: autoDraw = True
+189.4685 	DATA 	Mouse: Left button down, pos=(1081,308)
+189.4835 	DATA 	RatingScale rating: (mouse single-click) rating=4
+189.4836 	DATA 	RatingScale rating: rating RT=0.741
+189.4837 	DATA 	RatingScale rating: history=[(None, 0.0), ('4', 0.741)]
+189.5004 	EXP 	New trial (rep=0, index=21): OrderedDict([('Original', 'women1/34-original.jpg'), ('Scramble', 'women1/34-scramble.jpg')])
+189.5608 	EXP 	rating: autoDraw = False
+189.5608 	EXP 	RatingText: autoDraw = False
+189.5608 	EXP 	baselineImage: image = 'women1/34-scramble.jpg'
+189.5608 	EXP 	baselineImage: autoDraw = True
+189.6420 	DATA 	Mouse:  Left button up, pos=(1081,308)
+191.5819 	EXP 	baselineImage: autoDraw = False
+191.5819 	EXP 	image: image = 'women1/34-original.jpg'
+191.5819 	EXP 	image: autoDraw = True
+196.5190 	EXP 	RatingScale rating: reset()
+196.5340 	EXP 	image: autoDraw = False
+196.5340 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+196.5340 	EXP 	rating: autoDraw = True
+196.5340 	EXP 	RatingText: autoDraw = True
+197.6067 	DATA 	Mouse: Left button down, pos=(769,319)
+197.6068 	DATA 	RatingScale rating: (mouse single-click) rating=2
+197.6069 	DATA 	RatingScale rating: rating RT=1.084
+197.6069 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 1.084)]
+197.6242 	EXP 	New trial (rep=0, index=22): OrderedDict([('Original', 'women1/3-original.jpg'), ('Scramble', 'women1/3-scramble.jpg')])
+197.6950 	EXP 	rating: autoDraw = False
+197.6950 	EXP 	RatingText: autoDraw = False
+197.6950 	EXP 	baselineImage: image = 'women1/3-scramble.jpg'
+197.6950 	EXP 	baselineImage: autoDraw = True
+197.7747 	DATA 	Mouse:  Left button up, pos=(769,319)
+199.7030 	EXP 	baselineImage: autoDraw = False
+199.7030 	EXP 	image: image = 'women1/3-original.jpg'
+199.7030 	EXP 	image: autoDraw = True
+204.6239 	EXP 	RatingScale rating: reset()
+204.6386 	EXP 	image: autoDraw = False
+204.6386 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+204.6386 	EXP 	rating: autoDraw = True
+204.6386 	EXP 	RatingText: autoDraw = True
+205.6795 	DATA 	Mouse: Left button down, pos=(1078,311)
+205.6797 	DATA 	RatingScale rating: (mouse single-click) rating=4
+205.6798 	DATA 	RatingScale rating: rating RT=1.052
+205.6798 	DATA 	RatingScale rating: history=[(None, 0.0), ('4', 1.052)]
+205.6969 	EXP 	New trial (rep=0, index=23): OrderedDict([('Original', 'women1/6-original.jpg'), ('Scramble', 'women1/6-scramble.jpg')])
+205.8375 	DATA 	Mouse:  Left button up, pos=(1078,311)
+205.8492 	EXP 	rating: autoDraw = False
+205.8492 	EXP 	RatingText: autoDraw = False
+205.8492 	EXP 	baselineImage: image = 'women1/6-scramble.jpg'
+205.8492 	EXP 	baselineImage: autoDraw = True
+207.8544 	EXP 	baselineImage: autoDraw = False
+207.8544 	EXP 	image: image = 'women1/6-original.jpg'
+207.8544 	EXP 	image: autoDraw = True
+212.6973 	EXP 	RatingScale rating: reset()
+212.7117 	EXP 	image: autoDraw = False
+212.7117 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+212.7117 	EXP 	rating: autoDraw = True
+212.7117 	EXP 	RatingText: autoDraw = True
+214.0546 	DATA 	Mouse: Left button down, pos=(931,301)
+214.0548 	DATA 	RatingScale rating: (mouse single-click) rating=3
+214.0549 	DATA 	RatingScale rating: rating RT=1.354
+214.0549 	DATA 	RatingScale rating: history=[(None, 0.0), ('3', 1.354)]
+214.0725 	EXP 	New trial (rep=0, index=24): OrderedDict([('Original', 'women1/20-original.jpg'), ('Scramble', 'women1/20-scramble.jpg')])
+214.1498 	EXP 	rating: autoDraw = False
+214.1498 	EXP 	RatingText: autoDraw = False
+214.1498 	EXP 	baselineImage: image = 'women1/20-scramble.jpg'
+214.1498 	EXP 	baselineImage: autoDraw = True
+214.2016 	DATA 	Mouse:  Left button up, pos=(931,301)
+216.1428 	EXP 	baselineImage: autoDraw = False
+216.1428 	EXP 	image: image = 'women1/20-original.jpg'
+216.1428 	EXP 	image: autoDraw = True
+221.0781 	EXP 	RatingScale rating: reset()
+221.0911 	EXP 	image: autoDraw = False
+221.0911 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+221.0911 	EXP 	rating: autoDraw = True
+221.0911 	EXP 	RatingText: autoDraw = True
+221.9583 	DATA 	Mouse: Left button down, pos=(759,310)
+221.9584 	DATA 	RatingScale rating: (mouse single-click) rating=2
+221.9585 	DATA 	RatingScale rating: rating RT=0.876
+221.9585 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 0.876)]
+221.9752 	EXP 	New trial (rep=0, index=25): OrderedDict([('Original', 'women1/23-original.jpg'), ('Scramble', 'women1/23-scramble.jpg')])
+222.0486 	EXP 	rating: autoDraw = False
+222.0486 	EXP 	RatingText: autoDraw = False
+222.0486 	EXP 	baselineImage: image = 'women1/23-scramble.jpg'
+222.0486 	EXP 	baselineImage: autoDraw = True
+222.2362 	DATA 	Mouse:  Left button up, pos=(759,310)
+224.0969 	EXP 	baselineImage: autoDraw = False
+224.0969 	EXP 	image: image = 'women1/23-original.jpg'
+224.0969 	EXP 	image: autoDraw = True
+229.1063 	EXP 	RatingScale rating: reset()
+229.1195 	EXP 	image: autoDraw = False
+229.1195 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+229.1195 	EXP 	rating: autoDraw = True
+229.1195 	EXP 	RatingText: autoDraw = True
+230.1143 	DATA 	Mouse: Left button down, pos=(938,308)
+230.1145 	DATA 	RatingScale rating: (mouse single-click) rating=3
+230.1145 	DATA 	RatingScale rating: rating RT=1.004
+230.1146 	DATA 	RatingScale rating: history=[(None, 0.0), ('3', 1.004)]
+230.1313 	EXP 	New trial (rep=0, index=26): OrderedDict([('Original', 'women1/24-original.jpg'), ('Scramble', 'women1/24-scramble.jpg')])
+230.1978 	EXP 	rating: autoDraw = False
+230.1978 	EXP 	RatingText: autoDraw = False
+230.1978 	EXP 	baselineImage: image = 'women1/24-scramble.jpg'
+230.1978 	EXP 	baselineImage: autoDraw = True
+230.2884 	DATA 	Mouse:  Left button up, pos=(938,308)
+232.1932 	EXP 	baselineImage: autoDraw = False
+232.1932 	EXP 	image: image = 'women1/24-original.jpg'
+232.1932 	EXP 	image: autoDraw = True
+237.2697 	EXP 	RatingScale rating: reset()
+237.2952 	EXP 	image: autoDraw = False
+237.2952 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+237.2952 	EXP 	rating: autoDraw = True
+237.2952 	EXP 	RatingText: autoDraw = True
+238.7547 	DATA 	Mouse: Left button down, pos=(752,299)
+238.7548 	DATA 	RatingScale rating: (mouse single-click) rating=2
+238.7549 	DATA 	RatingScale rating: rating RT=1.482
+238.7550 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 1.481)]
+238.7718 	EXP 	New trial (rep=0, index=27): OrderedDict([('Original', 'women1/1-original.jpg'), ('Scramble', 'women1/1-scramble.jpg')])
+238.8161 	EXP 	rating: autoDraw = False
+238.8161 	EXP 	RatingText: autoDraw = False
+238.8161 	EXP 	baselineImage: image = 'women1/1-scramble.jpg'
+238.8161 	EXP 	baselineImage: autoDraw = True
+238.9848 	DATA 	Mouse:  Left button up, pos=(752,299)
+240.9377 	EXP 	baselineImage: autoDraw = False
+240.9377 	EXP 	image: image = 'women1/1-original.jpg'
+240.9377 	EXP 	image: autoDraw = True
+245.7714 	EXP 	RatingScale rating: reset()
+245.7868 	EXP 	image: autoDraw = False
+245.7868 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+245.7868 	EXP 	rating: autoDraw = True
+245.7868 	EXP 	RatingText: autoDraw = True
+246.7500 	DATA 	Mouse: Left button down, pos=(1092,300)
+246.7502 	DATA 	RatingScale rating: (mouse single-click) rating=4
+246.7504 	DATA 	RatingScale rating: rating RT=0.975
+246.7504 	DATA 	RatingScale rating: history=[(None, 0.0), ('4', 0.975)]
+246.7680 	EXP 	New trial (rep=0, index=28): OrderedDict([('Original', 'women1/12-original.jpg'), ('Scramble', 'women1/12-scramble.jpg')])
+246.8616 	EXP 	rating: autoDraw = False
+246.8616 	EXP 	RatingText: autoDraw = False
+246.8616 	EXP 	baselineImage: image = 'women1/12-scramble.jpg'
+246.8616 	EXP 	baselineImage: autoDraw = True
+246.9130 	DATA 	Mouse:  Left button up, pos=(1092,300)
+248.8291 	EXP 	baselineImage: autoDraw = False
+248.8291 	EXP 	image: image = 'women1/12-original.jpg'
+248.8291 	EXP 	image: autoDraw = True
+253.7873 	EXP 	RatingScale rating: reset()
+253.8005 	EXP 	image: autoDraw = False
+253.8005 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+253.8005 	EXP 	rating: autoDraw = True
+253.8005 	EXP 	RatingText: autoDraw = True
+254.8665 	DATA 	Mouse: Left button down, pos=(923,310)
+254.8667 	DATA 	RatingScale rating: (mouse single-click) rating=3
+254.8667 	DATA 	RatingScale rating: rating RT=1.076
+254.8668 	DATA 	RatingScale rating: history=[(None, 0.0), ('3', 1.075)]
+254.8831 	EXP 	New trial (rep=0, index=29): OrderedDict([('Original', 'women1/22-original.jpg'), ('Scramble', 'women1/22-scramble.jpg')])
+254.9501 	EXP 	rating: autoDraw = False
+254.9501 	EXP 	RatingText: autoDraw = False
+254.9501 	EXP 	baselineImage: image = 'women1/22-scramble.jpg'
+254.9501 	EXP 	baselineImage: autoDraw = True
+254.9999 	DATA 	Mouse:  Left button up, pos=(923,310)
+256.9708 	EXP 	baselineImage: autoDraw = False
+256.9708 	EXP 	image: image = 'women1/22-original.jpg'
+256.9708 	EXP 	image: autoDraw = True
+261.9855 	EXP 	RatingScale rating: reset()
+261.9995 	EXP 	image: autoDraw = False
+261.9995 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+261.9995 	EXP 	rating: autoDraw = True
+261.9995 	EXP 	RatingText: autoDraw = True
+263.0393 	DATA 	Mouse: Left button down, pos=(914,295)
+263.0395 	DATA 	RatingScale rating: (mouse single-click) rating=3
+263.0395 	DATA 	RatingScale rating: rating RT=1.051
+263.0396 	DATA 	RatingScale rating: history=[(None, 0.0), ('3', 1.05)]
+263.0563 	EXP 	New trial (rep=0, index=30): OrderedDict([('Original', 'women1/18-original.jpg'), ('Scramble', 'women1/18-scramble.jpg')])
+263.1225 	EXP 	rating: autoDraw = False
+263.1225 	EXP 	RatingText: autoDraw = False
+263.1225 	EXP 	baselineImage: image = 'women1/18-scramble.jpg'
+263.1225 	EXP 	baselineImage: autoDraw = True
+263.2046 	DATA 	Mouse:  Left button up, pos=(914,295)
+265.2267 	EXP 	baselineImage: autoDraw = False
+265.2267 	EXP 	image: image = 'women1/18-original.jpg'
+265.2267 	EXP 	image: autoDraw = True
+270.0651 	EXP 	RatingScale rating: reset()
+270.0871 	EXP 	image: autoDraw = False
+270.0871 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+270.0871 	EXP 	rating: autoDraw = True
+270.0871 	EXP 	RatingText: autoDraw = True
+271.1995 	DATA 	Mouse: Left button down, pos=(603,316)
+271.1997 	DATA 	RatingScale rating: (mouse single-click) rating=1
+271.1998 	DATA 	RatingScale rating: rating RT=1.131
+271.1999 	DATA 	RatingScale rating: history=[(None, 0.0), ('1', 1.131)]
+271.2184 	EXP 	New trial (rep=0, index=31): OrderedDict([('Original', 'women1/2-original.jpg'), ('Scramble', 'women1/2-scramble.jpg')])
+271.3040 	EXP 	rating: autoDraw = False
+271.3040 	EXP 	RatingText: autoDraw = False
+271.3040 	EXP 	baselineImage: image = 'women1/2-scramble.jpg'
+271.3040 	EXP 	baselineImage: autoDraw = True
+271.3550 	DATA 	Mouse:  Left button up, pos=(603,316)
+273.4210 	EXP 	baselineImage: autoDraw = False
+273.4210 	EXP 	image: image = 'women1/2-original.jpg'
+273.4210 	EXP 	image: autoDraw = True
+278.2802 	EXP 	RatingScale rating: reset()
+278.2948 	EXP 	image: autoDraw = False
+278.2948 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+278.2948 	EXP 	rating: autoDraw = True
+278.2948 	EXP 	RatingText: autoDraw = True
+279.3354 	DATA 	Mouse: Left button down, pos=(580,310)
+279.3355 	DATA 	RatingScale rating: (mouse single-click) rating=1
+279.3356 	DATA 	RatingScale rating: rating RT=1.052
+279.3356 	DATA 	RatingScale rating: history=[(None, 0.0), ('1', 1.052)]
+279.3521 	EXP 	New trial (rep=0, index=32): OrderedDict([('Original', 'women1/5-original.jpg'), ('Scramble', 'women1/5-scramble.jpg')])
+279.4955 	EXP 	rating: autoDraw = False
+279.4955 	EXP 	RatingText: autoDraw = False
+279.4955 	EXP 	baselineImage: image = 'women1/5-scramble.jpg'
+279.4955 	EXP 	baselineImage: autoDraw = True
+279.5148 	DATA 	Mouse:  Left button up, pos=(580,310)
+281.4854 	EXP 	baselineImage: autoDraw = False
+281.4854 	EXP 	image: image = 'women1/5-original.jpg'
+281.4854 	EXP 	image: autoDraw = True
+286.3992 	EXP 	RatingScale rating: reset()
+286.4175 	EXP 	image: autoDraw = False
+286.4175 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+286.4175 	EXP 	rating: autoDraw = True
+286.4175 	EXP 	RatingText: autoDraw = True
+287.5421 	DATA 	Mouse: Left button down, pos=(928,303)
+287.5422 	DATA 	RatingScale rating: (mouse single-click) rating=3
+287.5423 	DATA 	RatingScale rating: rating RT=1.139
+287.5423 	DATA 	RatingScale rating: history=[(None, 0.0), ('3', 1.139)]
+287.5587 	EXP 	New trial (rep=0, index=33): OrderedDict([('Original', 'women1/7-original.jpg'), ('Scramble', 'women1/7-scramble.jpg')])
+287.7046 	DATA 	Mouse:  Left button up, pos=(928,303)
+287.7156 	EXP 	rating: autoDraw = False
+287.7156 	EXP 	RatingText: autoDraw = False
+287.7156 	EXP 	baselineImage: image = 'women1/7-scramble.jpg'
+287.7156 	EXP 	baselineImage: autoDraw = True
+289.6825 	EXP 	baselineImage: autoDraw = False
+289.6825 	EXP 	image: image = 'women1/7-original.jpg'
+289.6825 	EXP 	image: autoDraw = True
+294.6700 	EXP 	RatingScale rating: reset()
+294.6833 	EXP 	image: autoDraw = False
+294.6833 	EXP 	RatingText: text = 'Read the following beauty rating scale\n\n1= Very Poor,  2= Poor\n3= Attractive,  4= Very Attractive\n\nclick on below numbers to give your rating:\n'
+294.6833 	EXP 	rating: autoDraw = True
+294.6833 	EXP 	RatingText: autoDraw = True
+295.6808 	DATA 	Mouse: Left button down, pos=(759,319)
+295.6809 	DATA 	RatingScale rating: (mouse single-click) rating=2
+295.6810 	DATA 	RatingScale rating: rating RT=1.007
+295.6810 	DATA 	RatingScale rating: history=[(None, 0.0), ('2', 1.007)]
+295.7108 	EXP 	rating: autoDraw = False
+295.7108 	EXP 	RatingText: autoDraw = False
+295.7108 	EXP 	ThanksText: autoDraw = True
+295.8458 	DATA 	Mouse:  Left button up, pos=(759,319)
+297.5976 	DATA 	Keypress: return
+297.6093 	EXP 	ThanksText: autoDraw = False
+297.6798 	EXP 	window1: mouseVisible = True

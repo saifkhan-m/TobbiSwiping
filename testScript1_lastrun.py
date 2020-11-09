@@ -121,7 +121,7 @@ from psychopy import data
 # in sec
 timer = 2000
 # reading per sec
-frequency = 10
+frequency = 60
 global_gaze_data = None
 # in second
 fixation_threshhold = 0.5
